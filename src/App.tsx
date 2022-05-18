@@ -1,11 +1,9 @@
 import React from "react";
+import "tw-elements";
+import TimeLine from "./components/TimeLine";
 
 function App() {
-  return (
-    <div className="App">
-      <p className="text-3xl font-bold underline">Work in progress!</p>
-    </div>
-  );
+  return <TimeLine />;
 }
 
 export default App;
