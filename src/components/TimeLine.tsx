@@ -6,9 +6,9 @@ const TimeLine = () => {
     <div className="flex justify-center ml-3">
       <ol className="border-l border-gray-300">
         <TimeLineEntries
-          date="August 2021"
-          title="Fall of U1"
-          desc="Introduction to Object-Oriented Programming"
+          date="May 2022"
+          title="Summer of U1"
+          desc="MLH Production Engineering Fellow!"
         />
         <TimeLineEntries
           date="January 2022"
@@ -17,9 +17,9 @@ const TimeLine = () => {
           Foundations of Computer Science`}
         />
         <TimeLineEntries
-          date="May 2022"
-          title="Summer of U1"
-          desc="MLH Production Engineering Fellow!"
+          date="August 2021"
+          title="Fall of U1"
+          desc="Introduction to Object-Oriented Programming"
         />
       </ol>
     </div>
