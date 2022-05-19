@@ -3,21 +3,21 @@ import TimeLineEntries from "./TimeLineEntries";
 
 const TimeLine = () => {
   return (
-    <div className="ml-3">
+    <div className="flex justify-center ml-3">
       <ol className="border-l border-gray-300">
         <TimeLineEntries
-          date="8/23/2021"
+          date="August 2021"
           title="Fall of U1"
-          desc="Introduction to Object-Oriented Programming - A"
+          desc="Introduction to Object-Oriented Programming"
         />
         <TimeLineEntries
-          date="1/24/2022"
+          date="January 2022"
           title="Spring of U1"
-          desc={`Data Structures - TBA
-          Foundations of Computer Science - TBA`}
+          desc={`Data Structures
+          Foundations of Computer Science`}
         />
         <TimeLineEntries
-          date="5/31/2022"
+          date="May 2022"
           title="Summer of U1"
           desc="MLH Production Engineering Fellow!"
         />
