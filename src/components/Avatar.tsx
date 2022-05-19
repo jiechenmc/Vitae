@@ -14,7 +14,9 @@ const Avatar = ({ name, title, imageSource }: AvatarProps) => {
         className="rounded-full w-48 mb-4 mx-auto"
         alt="Avatar"
       />
-      <h5 className="text-xl font-semibold leading-none mb-2">{name}</h5>
+      <h5 className="text-xl font-semibold leading-none mb-2 text-white">
+        {name}
+      </h5>
       <p className="text-lg font-semibold leading-none text-white">{title}</p>
     </div>
   );
