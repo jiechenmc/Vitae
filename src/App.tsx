@@ -1,5 +1,4 @@
 import React from "react";
-import "tw-elements";
 import TimeLine from "./components/TimeLine";
 import AboveTheFold from "./components/AboveTheFold";
 
