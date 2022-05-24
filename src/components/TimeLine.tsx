@@ -5,6 +5,7 @@ const TimeLine = () => {
   return (
     <div className="flex justify-center ml-3">
       <ol className="border-l border-gray-300">
+        <TimeLineEntries date="August 2022" title="Fall of U2" desc="..." />
         <TimeLineEntries
           date="May 2022"
           title="Summer of U1"
