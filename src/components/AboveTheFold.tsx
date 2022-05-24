@@ -14,7 +14,7 @@ const AboveTheFold = () => {
               <Avatar
                 name="Jie Chen"
                 title="CS Student at Stony Brook University"
-                imageSource="/src/assets/avatar.webp"
+                imageSource="src/assets/avatar.webp"
               />
             </h2>
             <h4 className="font-semibold leading-none mb-6">
