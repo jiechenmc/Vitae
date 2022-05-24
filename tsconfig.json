@@ -22,7 +22,6 @@
   },
   "include": [
     "src",
-    "src/assets/custom.d.ts"
   ],
   "references": [
     {
