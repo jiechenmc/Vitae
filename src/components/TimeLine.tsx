@@ -1,5 +1,5 @@
 import React from "react";
-import TimeLineEntries from "./TimeLineEntries";
+import TimeLineEntries from "./subcomponents/TimeLineEntries";
 
 const TimeLine = () => {
   return (
