@@ -3,6 +3,7 @@ import Avatar from "./Avatar";
 import SocialMediaBar from "./SocialMediaBar";
 import ViewResumeButton from "./ViewResumeButton";
 import { ReactComponent as DownArrow } from "../assets/DownArrow.svg";
+import avatarImage from "../assets/headshot.webp";
 
 const AboveTheFold = () => {
   return (
@@ -14,7 +15,7 @@ const AboveTheFold = () => {
               <Avatar
                 name="Jie Chen"
                 title="CS Student at Stony Brook University"
-                imageSource="/src/assets/cropped_headshot.webp"
+                imageSource={avatarImage}
               />
             </h2>
             <h4 className="font-semibold leading-none mb-6">
