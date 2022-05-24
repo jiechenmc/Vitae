@@ -2,8 +2,8 @@ import React from "react";
 import Avatar from "./Avatar";
 import SocialMediaBar from "./SocialMediaBar";
 import ViewResumeButton from "./ViewResumeButton";
-import { ReactComponent as DownArrow } from "../assets/DownArrow.svg";
 import avatarImage from "../assets/headshot.webp";
+import { ReactComponent as DownArrow } from "../assets/DownArrow.svg";
 
 const AboveTheFold = () => {
   return (
