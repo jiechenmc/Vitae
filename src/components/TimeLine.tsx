@@ -28,7 +28,7 @@ const TimeLine = () => {
         <TimeLineEntries
           date="January 2022"
           title="Spring of U1"
-          desc={["Data Strucutres\n", "Foundations of Computer Science"]}
+          desc={["Data Structures\n", "Foundations of Computer Science"]}
         />
         <TimeLineEntries
           date="August 2021"
