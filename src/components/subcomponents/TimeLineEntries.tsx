@@ -3,7 +3,7 @@ import React from "react";
 interface TimeLineEntriesProps {
   date: string;
   title: string;
-  desc: string;
+  desc: string[];
 }
 
 const TimeLineEntries = ({ date, title, desc }: TimeLineEntriesProps) => {
