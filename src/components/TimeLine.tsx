@@ -16,7 +16,7 @@ const TimeLine = () => {
           desc={[
             "MLH Production Engineering Fellowship!\n",
             <a
-              href="https://github.com/jiechenmc/poke_browser/"
+              href="https://github.com/jiechenmc/poke_data_explorer"
               className="text-blue-500"
               target="_blank"
               rel="noreferrer"
