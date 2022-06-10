@@ -4,7 +4,7 @@ import AboveTheFold from "./components/AboveTheFold";
 
 function App() {
   return (
-    <div>
+    <div className="snap-y snap-mandatory">
       <AboveTheFold />
       <TimeLine />
     </div>

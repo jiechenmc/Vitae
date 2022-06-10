@@ -3,8 +3,8 @@ import TimeLineEntries from "./subcomponents/TimeLineEntries";
 
 const TimeLine = () => {
   return (
-    <div className="">
-      <h1 className="relative text-2xl text-gray-700 font-bold text-center">
+    <div className="snap-center">
+      <h1 className="relative text-2xl text-gray-700 font-bold text-center mt-3">
         My Journey
       </h1>
       <div className="flex justify-center ml-3">
