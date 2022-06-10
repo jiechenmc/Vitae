@@ -1,4 +1,5 @@
 import React from "react";
+import SocialMediaBar from "./SocialMediaBar";
 
 interface AvatarProps {
   name: string;
@@ -8,16 +9,24 @@ interface AvatarProps {
 
 const Avatar = ({ name, title, imageSource }: AvatarProps) => {
   return (
-    <div className="text-center">
+    <div className="text-center md:grid md:grid-cols-2 sm:flex sm:flex-col">
       <img
         src={imageSource}
-        className="rounded-full w-48 mb-4 mx-auto"
+        className="rounded-full w-48 mb-4 mx-4"
         alt="Avatar"
       />
-      <h5 className="text-xl font-semibold leading-none mb-2 text-white">
-        {name}
-      </h5>
-      <p className="text-lg font-semibold leading-none text-white">{title}</p>
+      <div className="flex flex-col justify-center text-center">
+        <h5 className="text-xl font-semibold leading-none mb-2 text-white">
+          {name}
+        </h5>
+        <p className="text-lg font-semibold leading-none text-white whitespace-nowrap overflow-hidden anim-typewriter">
+          {title}
+        </p>
+        <br></br>
+        <h4 className="font-semibold leading-none mb-6">
+          <SocialMediaBar />
+        </h4>
+      </div>
     </div>
   );
 };
