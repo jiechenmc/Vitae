@@ -1,14 +1,13 @@
-import React from "react";
-import TimeLine from "./components/TimeLine";
-import AboveTheFold from "./components/AboveTheFold";
+import Classes from "./components/Classes";
+import Head from "./components/Head";
 import Projects from "./components/Projects";
 
 function App() {
   return (
-    <div className="snap-y snap-mandatory">
-      <AboveTheFold />
-      <div className="flex justify-evenly">
-        <TimeLine />
+    <div>
+      <Head />
+      <div className="justify-evenly sm:flex-col md:flex-row">
+        <Classes />
         <Projects />
       </div>
     </div>

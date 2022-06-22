@@ -7,6 +7,7 @@ interface ProjectEntriesProps {
   description: string;
   URL: string;
   status: string;
+  stack: string;
 }
 
 const ProjectEntries = ({
@@ -15,6 +16,7 @@ const ProjectEntries = ({
   description,
   URL,
   status,
+  stack,
 }: ProjectEntriesProps) => {
   const statusStyles: { [key: string]: string } = {
     complete: "border-emerald-400",
@@ -28,7 +30,7 @@ const ProjectEntries = ({
   return (
     <div className="flex justify-center mb-2">
       <div
-        className={`block p-6 rounded-lg shadow-lg bg-white max-w-sm ${
+        className={`block p-6 rounded-lg shadow-lgbg-white max-w-sm w-full ${
           statusStyles[status] ?? "border-red-500"
         } border-2`}
       >
@@ -38,6 +40,9 @@ const ProjectEntries = ({
         <p className="appearance-none mb-2 text-gray-500 text-sm">{date}</p>
         <p className="text-gray-500 text-base mb-4 animation-element">
           {description}
+        </p>
+        <p className="text-gray-500 text-sm mb-1 animation-element border-t-2 appearance-none">
+          {stack}
         </p>
         <button
           type="button"
