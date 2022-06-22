@@ -5,7 +5,7 @@ export default [
     description: "Front-end to browse the PokeApi",
     URL: "https://github.com/jiechenmc/poke_data_explorer",
     status: "incomplete",
-    stack: "React",
+    stack: "react",
   },
   {
     title: "Professor Sentiment Analysis",
@@ -14,6 +14,6 @@ export default [
       "Sentiment Analysis on the comments left by students for professors at Stony Brook University",
     URL: "https://github.com/jiechenmc/prof_sentiment",
     status: "incomplete",
-    stack: "Playwright",
+    stack: "playwright",
   },
 ];

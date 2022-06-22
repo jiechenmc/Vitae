@@ -1,5 +1,6 @@
 import React from "react";
 import { ReactComponent as GitHubLogo } from "../../assets/GithubLogo.svg";
+import { Icon } from "@iconify/react";
 
 interface ProjectEntriesProps {
   title: string;
@@ -30,7 +31,7 @@ const ProjectEntries = ({
   return (
     <div className="flex justify-center mb-2">
       <div
-        className={`block p-6 rounded-lg shadow-lgbg-white max-w-sm w-full ${
+        className={`block p-6 rounded-lg shadow-lg bg-white max-w-sm w-full ${
           statusStyles[status] ?? "border-red-500"
         } border-2`}
       >
