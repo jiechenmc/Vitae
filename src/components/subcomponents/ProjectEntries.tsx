@@ -40,7 +40,9 @@ const ProjectEntries = ({
           <h5 className="text-gray-800 text-xl leading-tight font-medium mb-0 border-b-2">
             {title}
           </h5>
-          <p className="appearance-none mb-2 text-gray-500 text-sm">{date}</p>
+          <p className="appearance-none mb-2 text-gray-500 text-sm mt-1 italic">
+            {date}
+          </p>
           <p className="text-gray-500 text-base mb-4 animation-element">
             {description}
           </p>
