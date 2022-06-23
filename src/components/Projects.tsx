@@ -15,7 +15,7 @@ const Projects = () => {
   return (
     <div id="projects">
       <h1 className="relative text-2xl text-gray-700 font-bold text-center mt-3 mb-3">
-        My Projects
+        Featured Projects
       </h1>
       <div className="sm:flex-col md:grid md:grid-cols-3">
         {[...PROJECTS]?.reverse().map((project: ProjectElement) => (
