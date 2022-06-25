@@ -1,20 +1,21 @@
 export default [
   {
-    title: "Pokemon Data Explorer",
+    title: "MLH-PE Portfolio Site",
     date: "May 2022",
-    description: "Tool for browsing data from PokéAPI",
-    URL: "https://github.com/jiechenmc/poke_data_explorer",
+    description:
+      "Website built with Flask and React, then expanded upon with modern tools like Docker, MySQL, and etc.",
+    URL: "https://github.com/jiechenmc/MLH-PE",
     status: "incomplete",
-    stack: "typescript,react",
+    stack: "python,typescript,react,flask,mysql,docker,bash",
   },
   {
-    title: "Professor Sentiment Analysis",
+    title: "SBU Prof Remarks",
     date: "June 2022",
     description:
-      "Sentiment Analysis on the comments left by students for professors at Stony Brook University",
+      "RESTful API for comments left by students for professors at Stony Brook University",
     URL: "https://github.com/jiechenmc/prof_sentiment",
     status: "incomplete",
-    stack: "python,playwright",
+    stack: "python,playwright,fastapi,mongodb",
   },
   {
     title: "Portfolio Website",

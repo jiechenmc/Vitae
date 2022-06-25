@@ -10,6 +10,12 @@ const useIcon = (icon: string) => {
     typescript: <Icon icon="logos:typescript-icon" />,
     python: <Icon icon="logos:python" />,
     firebase: <Icon icon="logos:firebase" />,
+    mysql: <Icon icon="logos:mysql" />,
+    flask: <Icon icon="logos:flask" />,
+    docker: <Icon icon="logos:docker-icon" />,
+    bash: <Icon icon="logos:bash-icon" />,
+    fastapi: <Icon icon="simple-icons:fastapi" color="#089484" />,
+    mongodb: <Icon icon="vscode-icons:file-type-mongo" />,
   };
 
   useEffect(() => {
