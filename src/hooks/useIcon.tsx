@@ -10,7 +10,7 @@ const useIcon = (icon: string) => {
     typescript: <Icon icon="logos:typescript-icon" />,
     python: <Icon icon="logos:python" />,
     firebase: <Icon icon="logos:firebase" />,
-    mysql: <Icon icon="logos:mysql" />,
+    mysql: <Icon icon="logos:mysql-icon" />,
     flask: <Icon icon="file-icons:flask" />,
     docker: <Icon icon="logos:docker-icon" />,
     bash: <Icon icon="logos:bash-icon" />,
