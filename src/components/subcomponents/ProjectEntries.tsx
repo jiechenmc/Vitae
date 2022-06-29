@@ -43,7 +43,7 @@ const ProjectEntries = ({
                 onClick={handleOnClick}
               >
                 <svg
-                  className="dark:fill-white light:fill-black"
+                  className="dark-theme:fill-white light-theme:fill-black"
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
                   height="16"
