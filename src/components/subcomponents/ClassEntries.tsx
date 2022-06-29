@@ -1,12 +1,10 @@
-import React from "react";
-
 interface TimeLineEntriesProps {
   date: string;
   title: string;
   events: string[];
 }
 
-const TimeLineEntries = ({ date, title, events }: TimeLineEntriesProps) => {
+const ClassEntries = ({ date, title, events }: TimeLineEntriesProps) => {
   return (
     <li>
       <div className="flex flex-start items-center">
@@ -27,4 +25,4 @@ const TimeLineEntries = ({ date, title, events }: TimeLineEntriesProps) => {
   );
 };
 
-export default TimeLineEntries;
+export default ClassEntries;

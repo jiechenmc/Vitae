@@ -1,13 +1,28 @@
 import ViewResumeButton from "./ViewResumeButton";
 import SocialMediaBar from "./SocialMediaBar";
 import worry from "../assets/worry_study.webp";
+import { useEffect, useState } from "react";
 
 const Head = () => {
+  const [isDarkTheme, setIsDarkTheme] = useState(true);
+
+  const toggleTheme = () => {
+    setIsDarkTheme(!isDarkTheme);
+  };
+
+  useEffect(() => {
+    if (isDarkTheme) {
+      document.documentElement.dataset.theme = "light";
+    } else {
+      document.documentElement.dataset.theme = "dark";
+    }
+  }, [isDarkTheme]);
+
   return (
     <div>
       <div className="text-center my-2">
         <label className="swap swap-rotate">
-          <input type="checkbox" />
+          <input type="checkbox" onChange={toggleTheme} />
 
           <svg
             className="swap-on fill-current w-10 h-10"
