@@ -1,5 +1,4 @@
 import React from "react";
-import { ReactComponent as GithubLogo } from "../assets/GithubLogo.svg";
 import { ReactComponent as LinkedinLogo } from "../assets/LinkedinLogo.svg";
 
 const SocialMediaBar = () => {
