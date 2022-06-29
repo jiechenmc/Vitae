@@ -59,7 +59,6 @@ const ProjectEntries = ({
             <div className="divider mb-1">Tech Stack</div>
 
             <div className="flex gap-1 mb-1">{icons}</div>
-            <div className="card-actions justify-center"></div>
           </div>
         </div>
       </div>

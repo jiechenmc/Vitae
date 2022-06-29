@@ -1,6 +1,3 @@
-import React from "react";
-import { ReactComponent as LinkedinLogo } from "../assets/LinkedinLogo.svg";
-
 const SocialMediaBar = () => {
   return (
     <div className="flex space-x-1 justify-center">
@@ -31,7 +28,15 @@ const SocialMediaBar = () => {
           type="button"
           className="inline-block px-6 py-2.5 mb-2 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out bg-[#0077b5]"
         >
-          <LinkedinLogo className="w-4 h-4" />
+          <svg
+            className="fill-white"
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            viewBox="0 0 24 24"
+          >
+            <path d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z" />
+          </svg>
         </button>
       </a>
     </div>
