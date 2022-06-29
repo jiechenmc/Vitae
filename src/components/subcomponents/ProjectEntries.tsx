@@ -39,7 +39,7 @@ const ProjectEntries = ({
             <h2 className="card-title">
               {title}
               <button
-                className="btn ml-auto border-0 bg-white hover:bg-gray-300 dark:bg-base-100 text-xl"
+                className="btn ml-auto border-0 bg-white hover:bg-gray-300 dark:hover:bg-gray-300 dark:bg-base-100 text-xl"
                 onClick={handleOnClick}
               >
                 <div className="badge badge-md mr-1 capitalize">{date}</div>
@@ -58,7 +58,7 @@ const ProjectEntries = ({
             <p>{description}</p>
             <div className="divider mb-1">Tech Stack</div>
 
-            <div className="flex gap-1 mb-1">{icons}</div>
+            <div className="flex gap-1 mb-1 justify-center">{icons}</div>
           </div>
         </div>
       </div>
