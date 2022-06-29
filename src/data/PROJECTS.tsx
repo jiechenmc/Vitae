@@ -12,7 +12,7 @@ export default [
     title: "SBU Prof Data",
     date: "June 2022",
     description:
-      "RESTful API for comments and grade distribution data from SBUClassieEval",
+      "RESTful API for comments and grade distribution data from SBUClassieEval.",
     URL: "https://github.com/jiechenmc/prof",
     status: "complete",
     stack: "python,playwright,fastapi,mongodb,heroku,docker",
