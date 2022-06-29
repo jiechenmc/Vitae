@@ -13,6 +13,7 @@ const ICONS: { [key: string]: React.ReactElement } = {
   fastapi: <Icon icon="simple-icons:fastapi" color="#089484" />,
   mongodb: <Icon icon="vscode-icons:file-type-mongo" />,
   digitalocean: <Icon icon="simple-icons:digitalocean" color="#0069ff" />,
+  heroku: <Icon icon="logos:heroku-icon" />,
 };
 
 export default ICONS;

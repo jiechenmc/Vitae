@@ -9,13 +9,13 @@ export default [
     stack: "python,typescript,bash,react,docker,flask,digitalocean,mysql",
   },
   {
-    title: "SBU Prof Remarks",
+    title: "Prof",
     date: "June 2022",
     description:
-      "RESTful API for comments left by students for professors at Stony Brook University",
-    URL: "https://github.com/jiechenmc/prof_sentiment",
-    status: "incomplete",
-    stack: "python,playwright,fastapi,mongodb",
+      "RESTful API for comments and grade distribution data from SBUClassieEval",
+    URL: "https://github.com/jiechenmc/prof",
+    status: "complete",
+    stack: "python,playwright,fastapi,mongodb,heroku,docker",
   },
   {
     title: "Portfolio Website",
