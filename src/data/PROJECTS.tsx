@@ -9,7 +9,7 @@ export default [
     stack: "python,typescript,bash,react,docker,flask,digitalocean,mysql",
   },
   {
-    title: "Prof",
+    title: "SBU Prof Data",
     date: "June 2022",
     description:
       "RESTful API for comments and grade distribution data from SBUClassieEval",
