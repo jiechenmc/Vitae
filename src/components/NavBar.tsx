@@ -1,6 +1,6 @@
 const NavBar = () => {
   return (
-    <div className="absolute text-sm bg-base-200">
+    <div className="absolute text-sm bg-base-200 flex justify-center w-full">
       <div>
         <ul className="sm:menu md:menu md:menu-horizontal">
           <li>
