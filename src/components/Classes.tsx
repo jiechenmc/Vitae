@@ -10,8 +10,8 @@ interface JourneyElement {
 
 const Classes = () => {
   return (
-    <div className="snap-center">
-      <h1 className="relative text-2xl light:text-gray-700 dark:text-base-content font-bold text-center my-3">
+    <div id="education">
+      <h1 className="relative text-2xl text-base-content font-bold text-center my-3">
         Education
       </h1>
       <div className="flex justify-center ml-3">
