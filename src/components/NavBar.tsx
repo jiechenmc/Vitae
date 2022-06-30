@@ -1,7 +1,7 @@
 const NavBar = () => {
   return (
     <div className="absolute text-sm bg-base-200">
-      <div className="grid justify-center">
+      <div>
         <ul className="sm:menu md:menu md:menu-horizontal">
           <li>
             <a href="#home">
