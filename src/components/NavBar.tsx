@@ -1,7 +1,9 @@
 import { useEffect, useState } from "react";
 
 const NavBar = () => {
-  const [isDarkTheme, setIsDarkTheme] = useState(true);
+  const [isDarkTheme, setIsDarkTheme] = useState(
+    window.matchMedia("prefers-color-scheme: dark").matches
+  );
 
   const toggleTheme = () => {
     setIsDarkTheme(!isDarkTheme);
@@ -25,7 +27,7 @@ const NavBar = () => {
         <input type="checkbox" onChange={toggleTheme} />
 
         <svg
-          className="swap-on fill-current w-10 h-10 "
+          className="swap-off fill-current w-10 h-10 "
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"
         >
@@ -33,7 +35,7 @@ const NavBar = () => {
         </svg>
 
         <svg
-          className="swap-off fill-current w-10 h-10"
+          className="swap-on fill-current w-10 h-10"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"
         >
