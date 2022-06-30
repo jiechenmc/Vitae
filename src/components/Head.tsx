@@ -15,7 +15,7 @@ const Head = () => {
               </div>
             </div>
             <h1>
-              <img src="https://readme-typing-svg.herokuapp.com?color=000000&center=true&vCenter=true&lines=Hi+I+am+Jie!;My+interests+are+...;Data+Engineering+%F0%9F%97%84%EF%B8%8F!;Production+Engineering+%F0%9F%92%BF!;and+Software+Engineering+%F0%9F%91%A8%E2%80%8D%F0%9F%92%BB!+" />
+              <img src="https://readme-typing-svg.herokuapp.com?duration=3500&color=000000&center=true&vCenter=true&lines=Hi+I+am+Jie+Chen!;My+interests+are+...;Data+Engineering+%F0%9F%97%84%EF%B8%8F!;Production+Engineering+%F0%9F%92%BF!;and+Software+Engineering+%F0%9F%91%A8%E2%80%8D%F0%9F%92%BB!+" />
             </h1>
             <p className="pb-6">
               I am currently a sophomore at Stony Brook University studying
