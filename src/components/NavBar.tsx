@@ -18,8 +18,9 @@ const NavBar = () => {
       document.documentElement.dataset.theme = "dark";
     }
   }, [isDarkTheme]);
+
   return (
-    <div className="text-center my-2 fixed right-0 mr-10 btn btn-circle">
+    <div className="absolute text-center my-2 mr-5 btn btn-circle right-0">
       <label className="swap swap-rotate">
         <input type="checkbox" onChange={toggleTheme} />
 
