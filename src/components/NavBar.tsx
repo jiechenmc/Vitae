@@ -1,8 +1,6 @@
-import ThemeToggle from "./ThemeToggle";
 const NavBar = () => {
   return (
-    <div className="text-sm breadcrumbs ml-2 flex justify-center bg-base-200">
-      <ThemeToggle />
+    <div className="absolute text-sm sm:menu md:menu-horizontal ml-2 flex justify-center bg-base-200">
       <ul>
         <li>
           <a href="#home">
