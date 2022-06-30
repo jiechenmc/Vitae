@@ -10,14 +10,16 @@ const Head = () => {
         <div className="hero-content text-center">
           <div className="max-w-md">
             <div className="avatar">
-              <div className="w-24 rounded ring ring-accent ring-offset-base-100 ring-offset-2">
+              <div className="w-24">
                 <img src={worry} />
               </div>
             </div>
-            <h1 className="text-5xl font-bold">Hello there</h1>
-            <p className="py-6">
-              Hi I am Jie, I am currently a sophomore at Stony Brook University
-              studying Computer Science!
+            <h1>
+              <img src="https://readme-typing-svg.herokuapp.com?color=000000&center=true&vCenter=true&lines=Hi+I+am+Jie!;My+interests+are+...;Data+Engineering+%F0%9F%97%84%EF%B8%8F!;Production+Engineering+%F0%9F%92%BF!;and+Software+Engineering+%F0%9F%91%A8%E2%80%8D%F0%9F%92%BB!+" />
+            </h1>
+            <p className="pb-6">
+              I am currently a sophomore at Stony Brook University studying
+              Computer Science!
             </p>
             <ViewResumeButton />
           </div>
