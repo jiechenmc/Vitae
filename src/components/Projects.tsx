@@ -14,7 +14,7 @@ interface ProjectElement {
 const Projects = () => {
   return (
     <div id="projects">
-      <h1 className="relative text-2xl light:text-gray-700 dark:text-base-content font-bold text-center mt-3 mb-3">
+      <h1 className=" text-2xl light:text-gray-700 dark:text-base-content font-bold text-center mt-3 mb-3">
         Featured Projects
       </h1>
       <div className="flex justify-center mb-6">
