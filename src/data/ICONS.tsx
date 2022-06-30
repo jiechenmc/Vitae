@@ -35,6 +35,9 @@ const ICONS: { [key: string]: React.ReactElement } = {
     />
   ),
   heroku: <Icon icon="logos:heroku-icon" width={width} height={height} />,
+  tailwindcss: (
+    <Icon icon="logos:tailwindcss-icon" width={width} height={height} />
+  ),
 };
 
 export default ICONS;

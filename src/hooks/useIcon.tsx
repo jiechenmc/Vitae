@@ -9,7 +9,11 @@ const useIcon = (icon: string) => {
     _setIcon(table[icon] ?? <Icon icon="emojione:warning" />);
   }, []);
 
-  return _icon;
+  return (
+    <div className="tooltip capitalize" data-tip={icon}>
+      {_icon}
+    </div>
+  );
 };
 
 export default useIcon;

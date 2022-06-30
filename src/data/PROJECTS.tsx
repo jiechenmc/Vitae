@@ -6,7 +6,8 @@ export default [
       "Website built with Flask and React, then expanded upon with modern tools like Docker, MySQL, and etc.",
     URL: "https://github.com/jiechenmc/MLH-PE",
     status: "incomplete",
-    stack: "python,typescript,bash,react,docker,flask,digitalocean,mysql",
+    stack:
+      "python,typescript,bash,react,docker,flask,digitalocean,mysql,tailwindcss",
   },
   {
     title: "SBU Prof Data",
@@ -24,6 +25,6 @@ export default [
       "Portfolio Website to show the world who I am and what I've accomplished!",
     URL: "https://github.com/jiechenmc/jiechen.dev",
     status: "complete",
-    stack: "typescript,react,firebase",
+    stack: "typescript,react,firebase,tailwindcss",
   },
 ];
