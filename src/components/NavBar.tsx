@@ -6,7 +6,7 @@ const NavBar = () => {
           <li>
             <a href="#home">
               <svg
-                className="mr-2 dark:fill-white"
+                className="dark:fill-white"
                 width="24"
                 height="24"
                 xmlns="http://www.w3.org/2000/svg"
@@ -21,7 +21,7 @@ const NavBar = () => {
           <li>
             <a href="#education">
               <svg
-                className="mr-2 dark:fill-white"
+                className="dark:fill-white"
                 width="24"
                 height="24"
                 xmlns="http://www.w3.org/2000/svg"
@@ -36,7 +36,7 @@ const NavBar = () => {
           <li>
             <a href="#projects">
               <svg
-                className="mr-2 dark:fill-white"
+                className="dark:fill-white"
                 width="24"
                 height="24"
                 xmlns="http://www.w3.org/2000/svg"
