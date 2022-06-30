@@ -1,9 +1,7 @@
 import { useEffect, useState } from "react";
 
 const NavBar = () => {
-  const [isDarkTheme, setIsDarkTheme] = useState(
-    window.matchMedia("prefers-color-scheme: dark").matches
-  );
+  const [isDarkTheme, setIsDarkTheme] = useState(false);
 
   const toggleTheme = () => {
     setIsDarkTheme(!isDarkTheme);
