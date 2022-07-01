@@ -20,7 +20,7 @@ const ThemeToggle = () => {
   }, [isDarkTheme]);
 
   return (
-    <div className="absolute text-center my-2 sm:mr-2 md:mr-5 btn btn-circle right-0 top-0 z-50">
+    <div className="absolute text-center my-2 mr-5 btn btn-circle right-0 top-0 z-50">
       <label className="swap swap-rotate">
         <input type="checkbox" onChange={toggleTheme} />
 
