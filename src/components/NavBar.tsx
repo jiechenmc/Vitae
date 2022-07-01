@@ -1,3 +1,5 @@
+import ThemeToggle from "./ThemeToggle";
+
 const NavBar = () => {
   return (
     <div className="fixed text-sm flex justify-center w-full z-50 backdrop-blur">
@@ -47,6 +49,9 @@ const NavBar = () => {
               </svg>
               <p className="sm:hidden md:block">Projects</p>
             </a>
+          </li>
+          <li>
+            <ThemeToggle />
           </li>
         </ul>
       </div>

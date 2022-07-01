@@ -1,13 +1,11 @@
 import ViewResumeButton from "./ViewResumeButton";
 import worry from "../assets/worry_study.webp";
-import ThemeToggle from "./ThemeToggle";
 import NavBar from "./NavBar";
 
 const Head = () => {
   return (
     <div id="home">
       <NavBar />
-      <ThemeToggle />
       <div className="hero min-h-screen bg-base-200">
         <div className="hero-content text-center">
           <div className="max-w-md">
