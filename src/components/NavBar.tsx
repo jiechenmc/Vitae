@@ -1,8 +1,8 @@
 const NavBar = () => {
   return (
-    <div className="absolute text-sm bg-base-200 flex md:justify-center w-full">
+    <div className="fixed text-sm flex justify-center w-full z-50 backdrop-blur">
       <div>
-        <ul className="sm:menu md:menu md:menu-horizontal">
+        <ul className="menu menu-horizontal">
           <li>
             <a href="#home">
               <svg
