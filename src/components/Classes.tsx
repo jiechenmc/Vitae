@@ -30,10 +30,12 @@ const Classes = () => {
 
       <div className="flex justify-center ml-3">
         <div className="overflow-x-auto">
-          <table className="table w-full">
+          <table className="table table-zebra w-full">
             <thead>
               <tr>
-                <th>Course Code</th>
+                <th className="text-base-200 md:text-base-content">
+                  Course Code
+                </th>
                 <th>Course Name</th>
                 <th>Instructor</th>
               </tr>

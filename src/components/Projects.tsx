@@ -18,9 +18,9 @@ const Projects = () => {
         Featured Projects
       </h1>
       <div className="flex justify-center mb-6">
-        <img className="xs:w-full sm:w-fit" id="GithubStats" />
+        <img className="w-full md:w-fit" id="GithubStats" />
       </div>
-      <div className="sm:flex-col md:grid md:grid-cols-3 justify-between">
+      <div className="sm:flex-col lg:grid lg:grid-cols-3 justify-between">
         {[...PROJECTS]?.reverse().map((project: ProjectElement) => (
           <ProjectEntries
             key={uuidv4()}

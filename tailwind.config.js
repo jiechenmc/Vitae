@@ -4,9 +4,7 @@ module.exports = {
   lightMode: "class",
   daisyui: { themes: ["light", "dark"] },
   theme: {
-    extend: {
-      screens: { xs: "320px", sm: "768px", md: "1024px" },
-    },
+    extend: {},
   },
   plugins: [require("daisyui")],
 };
