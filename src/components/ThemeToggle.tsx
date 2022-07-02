@@ -8,14 +8,28 @@ const ThemeToggle = () => {
   };
 
   useEffect(() => {
+    let banner: HTMLImageElement = document.getElementById(
+      "GithubStats"
+    ) as HTMLImageElement;
+
+    const lightUrl =
+      "https://github-readme-stats.vercel.app/api/top-langs/?username=jiechenmc&layout=compact&theme=light&hide_border=true&text_color=1f2937&title_color=1f2937";
+    const darkUrl =
+      "https://github-readme-stats.vercel.app/api/top-langs/?username=jiechenmc&layout=compact&theme=dark&hide_border=true&bg_color=2a303c&text_color=a6adba&title_color=a6adba";
     if (isDarkTheme) {
       document.documentElement.classList.add("light");
       document.documentElement.classList.remove("dark");
       document.documentElement.dataset.theme = "light";
+      if (banner) {
+        banner.src = lightUrl;
+      }
     } else {
       document.documentElement.classList.add("dark");
       document.documentElement.classList.remove("light");
       document.documentElement.dataset.theme = "dark";
+      if (banner) {
+        banner.src = darkUrl;
+      }
     }
   }, [isDarkTheme]);
 

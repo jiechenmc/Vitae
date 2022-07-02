@@ -18,7 +18,7 @@ const Projects = () => {
         Featured Projects
       </h1>
       <div className="flex justify-center mb-6">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jiechenmc&layout=compact&theme=dark&hide_border=true" />
+        <img className="xs:w-full sm:w-fit" id="GithubStats" />
       </div>
       <div className="sm:flex-col md:grid md:grid-cols-3 justify-between">
         {[...PROJECTS]?.reverse().map((project: ProjectElement) => (
