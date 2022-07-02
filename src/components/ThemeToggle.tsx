@@ -22,8 +22,8 @@ const ThemeToggle = () => {
     const statsLight = `https://github-readme-stats.vercel.app/api/top-langs/?username=jiechenmc&layout=compact&theme=light&hide_border=true&text_color=${lightTextColor}&title_color=${lightTextColor}&hide_title=true`;
     const statsDark = `https://github-readme-stats.vercel.app/api/top-langs/?username=jiechenmc&layout=compact&theme=dark&hide_border=true&bg_color=2a303c&text_color=${darkTextColor}&title_color=${darkTextColor}&hide_title=true`;
 
-    const typewriterLight = `https://readme-typing-svg.herokuapp.com?duration=3500&color=${lightTextColor}&center=true&vCenter=true&lines=Hi+I+am+Jie+Chen!;My+interests+are+...;Data+Engineering+%F0%9F%93%8A!;Production+Engineering+%F0%9F%92%BF!;and+Software+Engineering+%F0%9F%92%BB!+`;
-    const typewriterDark = `https://readme-typing-svg.herokuapp.com?duration=3500&color=${darkTextColor}&center=true&vCenter=true&lines=Hi+I+am+Jie+Chen!;My+interests+are+...;Data+Engineering+%F0%9F%93%8A!;Production+Engineering+%F0%9F%92%BF!;and+Software+Engineering+%F0%9F%92%BB!+`;
+    const typewriterLight = `https://readme-typing-svg.herokuapp.com?font=ui-sans-serif&duration=3500&color=${lightTextColor}&center=true&vCenter=true&lines=Hi+I+am+Jie+Chen!;My+interests+are+...;Data+Engineering+%F0%9F%93%8A!;Production+Engineering+%F0%9F%92%BF!;and+Software+Engineering+%F0%9F%92%BB!+`;
+    const typewriterDark = `https://readme-typing-svg.herokuapp.com?font=ui-sans-serif&duration=3500&color=${darkTextColor}&center=true&vCenter=true&lines=Hi+I+am+Jie+Chen!;My+interests+are+...;Data+Engineering+%F0%9F%93%8A!;Production+Engineering+%F0%9F%92%BF!;and+Software+Engineering+%F0%9F%92%BB!+`;
 
     if (isDarkTheme) {
       document.documentElement.classList.add("light");
