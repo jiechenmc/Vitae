@@ -32,7 +32,7 @@ const Projects = () => {
         ))}
       </div>
 
-      <div className="flex justify-center mb-6">
+      <div className="flex justify-center">
         <img
           className="w-full md:w-[60%] lg:w-[45%] xl:w-[35%] 2xl:w-[25%]"
           id="GithubStats"
