@@ -13,9 +13,9 @@ const ThemeToggle = () => {
     ) as HTMLImageElement;
 
     const lightUrl =
-      "https://github-readme-stats.vercel.app/api/top-langs/?username=jiechenmc&layout=compact&theme=light&hide_border=true&text_color=1f2937&title_color=1f2937";
+      "https://github-readme-stats.vercel.app/api/top-langs/?username=jiechenmc&layout=compact&theme=light&hide_border=true&text_color=1f2937&title_color=1f2937&hide_title=true";
     const darkUrl =
-      "https://github-readme-stats.vercel.app/api/top-langs/?username=jiechenmc&layout=compact&theme=dark&hide_border=true&bg_color=2a303c&text_color=a6adba&title_color=a6adba";
+      "https://github-readme-stats.vercel.app/api/top-langs/?username=jiechenmc&layout=compact&theme=dark&hide_border=true&bg_color=2a303c&text_color=a6adba&title_color=a6adba&hide_title=true";
     if (isDarkTheme) {
       document.documentElement.classList.add("light");
       document.documentElement.classList.remove("dark");
