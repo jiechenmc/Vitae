@@ -7,7 +7,7 @@ export default [
     URL: "https://github.com/jiechenmc/MLH-PE",
     status: "incomplete",
     stack:
-      "Python,TypeScript,Bash,React,Docker,Flask,DigitalOcean,MySQL,TailwindCSS",
+      "Python,TypeScript,Bash,React,Docker,Flask,DigitalOcean,MySQL,TailwindCSS,Nginx",
   },
   {
     title: "SBU Prof Data",

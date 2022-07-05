@@ -25,7 +25,7 @@ const ProjectEntries = ({
     window.open(URL, "_self");
   };
 
-  const icons = stack.split(",").map((e) => useIcon(e));
+  const icons = stack.split(",").map((e) => useIcon(e.trim()));
 
   return (
     <div className="flex justify-center mt-2 mx-1">
