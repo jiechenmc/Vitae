@@ -25,6 +25,6 @@ export default [
       "Portfolio Website to show the world who I am and what I've accomplished!",
     URL: "https://github.com/jiechenmc/jiechen.dev",
     status: "complete",
-    stack: "TypeScript,React,Firebase,TailwindCSS",
+    stack: "TypeScript,React,Firebase,TailwindCSS,Docker",
   },
 ];

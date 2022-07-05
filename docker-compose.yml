@@ -1,0 +1,10 @@
+version: "3"
+services:
+  react:
+    container_name: jiechen.dev
+    build: .
+    ports:
+      - "3000:3000"
+    restart: always
+    volumes:
+      - .:/jiechen.dev
