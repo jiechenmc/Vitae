@@ -18,7 +18,7 @@ const Projects = () => {
         Featured Projects
       </h1>
 
-      <div className="sm:flex-col lg:grid lg:grid-cols-3 justify-between ">
+      <div className="sm:flex-col lg:grid lg:grid-cols-3 2xl:grid-cols-5 justify-between ">
         {[...PROJECTS]?.reverse().map((project: ProjectElement) => (
           <ProjectEntries
             key={uuidv4()}

@@ -27,4 +27,13 @@ export default [
     status: "complete",
     stack: "TypeScript,React,Firebase,TailwindCSS",
   },
+  {
+    title: "Portfolio Website",
+    date: "June 2022",
+    description:
+      "Portfolio Website to show the world who I am and what I've accomplished!",
+    URL: "https://github.com/jiechenmc/jiechen.dev",
+    status: "complete",
+    stack: "TypeScript,React,Firebase,TailwindCSS",
+  },
 ];
