@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "site":"sbugrades",
+    "site":"portfolio-website-784d8",
     "public": "public",
     "ignore": [
       "firebase.json",
