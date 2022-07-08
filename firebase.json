@@ -1,6 +1,7 @@
 {
   "hosting": {
-    "public": "dist",
+    "site":"sbugrades",
+    "public": "public",
     "ignore": [
       "firebase.json",
       "**/.*",
