@@ -2,13 +2,14 @@ import ProjectEntries from "./subcomponents/ProjectEntries";
 import PROJECTS from "../data/PROJECTS";
 import { v4 as uuidv4 } from "uuid";
 
-interface ProjectElement {
+export interface ProjectElement {
   title: string;
   date: string;
   description: string;
-  URL: string;
+  repo: string;
   status: string;
   stack: string;
+  demo: string;
 }
 
 const Projects = () => {
@@ -25,9 +26,10 @@ const Projects = () => {
             title={project?.title}
             date={project?.date}
             description={project?.description}
-            URL={project?.URL}
+            repo={project?.repo}
             status={project?.status}
             stack={project?.stack}
+            demo={project?.demo}
           />
         ))}
       </div>
