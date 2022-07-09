@@ -1,9 +1,14 @@
 # jiechenmc.github.io
 
-Portfolio Website
+Portfolio Website to host my achievements!
 
-Easily spin up a dev session with
+## Development Server
 
+#### Docker
 ```bash
 docker compose up
+```
+#### NPM
+```bash
+npm i && npm run dev
 ```
