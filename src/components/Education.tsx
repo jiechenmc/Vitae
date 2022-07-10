@@ -3,16 +3,16 @@ import CLASSES from "../data/CLASSES";
 import { v4 as uuidv4 } from "uuid";
 import SBULogo from "../assets/sbu.webp";
 
-interface ClassElement {
+export interface ClassElement {
   courseCode: string;
   courseName: string;
   instructor: string;
   completed: boolean;
 }
 
-const Classes = () => {
+const Education = () => {
   return (
-    <div id="education" className="mx-1">
+    <div id="education" className="">
       <h1 className="relative text-2xl text-base-content font-bold text-center my-3">
         Education
       </h1>
@@ -58,4 +58,4 @@ const Classes = () => {
   );
 };
 
-export default Classes;
+export default Education;

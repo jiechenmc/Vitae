@@ -1,4 +1,4 @@
-import Classes from "./components/Classes";
+import Classes from "./components/Education";
 import Footer from "./components/Footer";
 import Head from "./components/Head";
 import Projects from "./components/Projects";

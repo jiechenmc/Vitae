@@ -20,7 +20,7 @@ const ProjectEntries = ({
   const icons = stack.split(",").map((e) => useIcon(e.trim()));
 
   return (
-    <div className="flex justify-center mt-2 mx-1">
+    <div className="flex justify-center mt-2">
       <div
         className={`flex max-w-sm min-w-sm mb-2 border-2 rounded-lg shadow-lg ${
           statusStyles[status] ?? "border-red-500"

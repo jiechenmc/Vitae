@@ -1,23 +1,30 @@
-import React from "react";
+import WORK from "../data/WORK";
+import WorkEntries from "./subcomponents/WorkEntries";
+import { v4 as uuidv4 } from "uuid";
+
+export interface WorkElement {
+  period: string;
+  company: string;
+  role: string;
+  description: string;
+}
 
 export const Work = () => {
   return (
-    <div className="mx-1">
+    <div id="work" className="">
       <h1 className=" text-2xl light:text-gray-700 dark:text-base-content font-bold text-center mt-3 mb-1">
-        Work Experience
+        Experiences
       </h1>
-      <div className="flex justify-center">
-        <div className="mockup-code max-w-md w-full">
-          <pre data-prefix="!" className="text-info">
-            <code>May 2022 - August 2022</code>
-          </pre>
-          <pre data-prefix="$" className="text-warning">
-            <code>MLH Production Engineering Fellowship</code>
-          </pre>
-          <pre data-prefix=">">
-            <code>...</code>
-          </pre>
-        </div>
+      <div>
+        {[...WORK]?.reverse().map((work: WorkElement) => (
+          <WorkEntries
+            key={uuidv4()}
+            period={work?.period}
+            company={work?.company}
+            role={work?.role}
+            description={work?.description}
+          />
+        ))}
       </div>
     </div>
   );
