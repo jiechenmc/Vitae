@@ -10,15 +10,15 @@ const NavBar = () => {
       <div>
         <ul className="menu menu-horizontal">
           <li>
-            <a href="#work">
-              <WorkIcon className="stroke-black dark:stroke-white " />
-              <p className="hidden md:block">Experience</p>
-            </a>
-          </li>
-          <li>
             <a href="#home">
               <AboutIcon className="dark:fill-white light:fill-black" />
               <p className="hidden md:block">About</p>
+            </a>
+          </li>
+          <li>
+            <a href="#work">
+              <WorkIcon className="stroke-black dark:stroke-white " />
+              <p className="hidden md:block">Experience</p>
             </a>
           </li>
           <li>
