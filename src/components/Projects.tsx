@@ -14,7 +14,7 @@ export interface ProjectElement {
 
 const Projects = () => {
   return (
-    <div id="projects">
+    <div id="projects" className="mx-1">
       <h1 className=" text-2xl light:text-gray-700 dark:text-base-content font-bold text-center mt-3 mb-1">
         Featured Projects
       </h1>

@@ -12,7 +12,7 @@ interface ClassElement {
 
 const Classes = () => {
   return (
-    <div id="education">
+    <div id="education" className="mx-1">
       <h1 className="relative text-2xl text-base-content font-bold text-center my-3">
         Education
       </h1>

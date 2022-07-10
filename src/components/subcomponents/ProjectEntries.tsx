@@ -13,8 +13,8 @@ const ProjectEntries = ({
   demo,
 }: ProjectElement) => {
   const statusStyles: { [key: string]: string } = {
-    complete: "border-emerald-200",
-    incomplete: "border-amber-200",
+    complete: "border-success",
+    incomplete: "border-warning",
   };
 
   const icons = stack.split(",").map((e) => useIcon(e.trim()));
