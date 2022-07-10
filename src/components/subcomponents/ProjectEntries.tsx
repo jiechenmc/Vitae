@@ -30,17 +30,17 @@ const ProjectEntries = ({
           <div className="card-body">
             <h2 className="card-title">{title}</h2>
             <div className="flex justify-start">
-              <div className="badge badge-md mr-1 capitalize mt-auto mb-auto">
+              <div className="badge badge-md mr-1 capitalize mt-auto mb-auto bg-transparent text-current">
                 <p>{date}</p>
               </div>
               <div className="flex gap-1">
                 <a href={repo}>
-                  <button className="btn p-1 border-0 bg-white hover:bg-gray-300 dark:hover:bg-gray-300 dark:bg-base-100 text-xl">
+                  <button className="btn bg-transparent p-1 border-0 bg-white hover:bg-gray-300 dark:hover:bg-gray-300 text-xl">
                     <GithubProjectIcon className="dark:fill-white light:fill-black" />
                   </button>
                 </a>
                 <a href={demo}>
-                  <button className="btn p-1 border-0 bg-white hover:bg-gray-300 dark:hover:bg-gray-300 dark:bg-base-100 text-xl">
+                  <button className="btn bg-transparent p-1 border-0 bg-white hover:bg-gray-300 dark:hover:bg-gray-300 text-xl">
                     <DemoIcon className="dark:fill-white light:fill-black" />
                   </button>
                 </a>
