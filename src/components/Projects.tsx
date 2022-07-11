@@ -15,8 +15,8 @@ export interface ProjectElement {
 const Projects = () => {
   return (
     <div id="projects" className="">
-      <h1 className=" text-2xl light:text-gray-700 dark:text-base-content font-bold text-center mt-3 mb-1">
-        Featured Projects
+      <h1 className="my-4 text-2xl light:text-gray-700 dark:text-base-content font-bold text-center">
+        Projects
       </h1>
 
       <div className="sm:flex-col lg:grid lg:grid-cols-3 hd:grid-cols-4 mba:grid-cols-5 justify-between ">

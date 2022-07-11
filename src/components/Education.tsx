@@ -13,7 +13,7 @@ export interface ClassElement {
 const Education = () => {
   return (
     <div id="education" className="">
-      <h1 className="relative text-2xl text-base-content font-bold text-center my-3">
+      <h1 className="relative text-2xl text-base-content font-bold text-center my-4">
         Education
       </h1>
 

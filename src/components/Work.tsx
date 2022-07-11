@@ -12,7 +12,7 @@ export interface WorkElement {
 export const Work = () => {
   return (
     <div id="work" className="">
-      <h1 className=" text-2xl light:text-gray-700 dark:text-base-content font-bold text-center mt-3 mb-1">
+      <h1 className=" text-2xl light:text-gray-700 dark:text-base-content font-bold text-center my-4">
         Experiences
       </h1>
       <div>
