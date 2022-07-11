@@ -4,6 +4,6 @@ export default [
     company: "Major League Hacking",
     role: "Production Engineering Fellow",
     description:
-      "Hands-on experience with SRE tools such as Nginx, Docker, and etc...\nServer management with a DigitalOcean droplet\nExtensive use of Linux commands for system monitoring\nLearn to debug and expand our knowledge on operating systems with our Pinterest mentor",
+      "Hands-on experience with SRE tools such as Nginx, Docker, and etc...\nServer management experience with DigitalOcean droplets\nExtensive use of Linux commands for system monitoring\nLearn to debug and expand our knowledge on operating systems with our Pinterest mentor",
   },
 ];
