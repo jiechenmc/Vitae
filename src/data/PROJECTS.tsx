@@ -11,7 +11,7 @@ export default [
       "Python,TypeScript,Bash,React,Docker,Flask,DigitalOcean,MySQL,TailwindCSS,Nginx",
   },
   {
-    title: "Portfolio Website",
+    title: "jiechen.dev",
     date: "June 2022",
     description:
       "Portfolio Website to show the world who I am and what I've accomplished!",
