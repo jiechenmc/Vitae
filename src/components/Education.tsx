@@ -18,7 +18,14 @@ const Education = () => {
       </h1>
 
       <div className="flex justify-center mb-6 gap-2">
-        <img className="" src={SBULogo} width="96px" />
+        <img
+          className=""
+          src={SBULogo}
+          width="96px"
+          onContextMenu={(e) => {
+            e.preventDefault();
+          }}
+        />
         <div className="whitespace-nowrap ">
           <p className="font-bold w-36 ">Stony Brook University</p>
           <p className="font-bold w-36 ">B.S. — Computer Science</p>

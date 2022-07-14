@@ -11,10 +11,20 @@ const Head = () => {
           <div className="max-w-md">
             <div className="avatar">
               <div className="w-24">
-                <img src={worry} />
+                <img
+                  src={worry}
+                  onContextMenu={(e) => {
+                    e.preventDefault();
+                  }}
+                />
               </div>
             </div>
-            <img id="AnimatedIntroduction" />
+            <img
+              id="AnimatedIntroduction"
+              onContextMenu={(e) => {
+                e.preventDefault();
+              }}
+            />
             <p className="pb-6">⚡⚡⚡ Blazingly Fast ⚡⚡⚡</p>
             <ViewResumeButton />
           </div>
