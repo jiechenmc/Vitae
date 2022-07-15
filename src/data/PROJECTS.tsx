@@ -8,7 +8,7 @@ export default [
     demo: "https://jiechenmc.duckdns.org/",
     status: "incomplete",
     stack:
-      "Python,TypeScript,Bash,React,Docker,Flask,DigitalOcean,MySQL,TailwindCSS,Nginx",
+      "Python,TypeScript,React,TailwindCSS,Flask,MySQL,Docker,Nginx,DigitalOcean",
   },
   {
     title: "jiechen.dev",
@@ -18,7 +18,7 @@ export default [
     repo: "https://github.com/jiechenmc/jiechen.dev",
     demo: "https://jiechen.dev/",
     status: "complete",
-    stack: "TypeScript,React,Firebase,TailwindCSS,Docker",
+    stack: "TypeScript,React,TailwindCSS,Docker,Firebase",
   },
   {
     title: "SBU Prof Data",
@@ -28,16 +28,27 @@ export default [
     repo: "https://github.com/jiechenmc/prof",
     demo: "https://prof-comments.herokuapp.com/docs",
     status: "complete",
-    stack: "Python,Playwright,FastAPI,MongoDB,Heroku,Docker",
+    stack: "Python,Playwright,FastAPI,MongoDB,Docker,Heroku",
   },
   {
     title: "SBU Grade Reports",
     date: "July 2022",
     description:
-      "SBUGradeReports is a way for you to view past grade data for professors, classes, and terms.",
+      "SBUGradeReports is a way for students to view past grade data for professors, classes, and terms.",
     repo: "https://github.com/jiechenmc/SBUGradeReports",
     demo: "https://sbugrades.web.app/",
     status: "complete",
-    stack: "TypeScript,React,Firebase,TailwindCSS,Docker",
+    stack: "TypeScript,React,TailwindCSS,Docker,Firebase",
+  },
+  {
+    title: "Intrack",
+    date: "July 2022",
+    description:
+      "Minimalistic internship tracker powered by SolidJS, Flask, and Sqlite.",
+    repo: "https://github.com/jiechenmc/intrack",
+    demo: "https://intrackdemo.duckdns.org/",
+    status: "complete",
+    stack:
+      "Python,TypeScript,SolidJS,TailwindCSS,Flask,Sqlite,Docker,Nginx,DigitalOcean",
   },
 ];

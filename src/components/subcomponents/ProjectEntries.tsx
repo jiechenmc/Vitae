@@ -22,7 +22,7 @@ const ProjectEntries = ({
   return (
     <div className="flex justify-center mb-2">
       <div
-        className={`flex max-w-sm min-w-sm mb-2 border-2 rounded-lg shadow-lg ${
+        className={`flex max-w-sm w-full mb-2 border-2 rounded-lg shadow-lg ${
           statusStyles[status] ?? "border-red-500"
         }`}
       >
