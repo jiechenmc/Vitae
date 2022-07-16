@@ -46,7 +46,7 @@ export default [
     description:
       "Minimalistic internship tracker powered by SolidJS, Flask, and Sqlite.",
     repo: "https://github.com/jiechenmc/intrack",
-    demo: "https://intrackdemo.duckdns.org/",
+    demo: "https://www.youtube.com/watch?v=glhiGo_j4cI",
     status: "complete",
     stack:
       "Python,TypeScript,SolidJS,TailwindCSS,Flask,Sqlite,Docker,Nginx,DigitalOcean",
