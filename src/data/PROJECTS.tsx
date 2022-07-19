@@ -8,7 +8,7 @@ export default [
     demo: "https://jiechenmc.duckdns.org/",
     status: "incomplete",
     stack:
-      "Python,TypeScript,React,TailwindCSS,Flask,MySQL,Docker,Nginx,DigitalOcean",
+      "Python,TypeScript,React,TailwindCSS,Flask,MySQL,Docker,Nginx,DigitalOcean,GithubActions",
   },
   {
     title: "jiechen.dev",

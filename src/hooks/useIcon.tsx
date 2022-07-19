@@ -7,7 +7,11 @@ const useIcon = (icon: string) => {
   const [_icon, _setIcon] = useState<React.ReactElement>();
 
   useEffect(() => {
-    _setIcon(table[iconQuery] ?? <Icon icon="emojione:warning" />);
+    _setIcon(
+      table[iconQuery] ?? (
+        <Icon icon="emojione:warning" width="24" height="24" />
+      )
+    );
   }, []);
 
   return (
