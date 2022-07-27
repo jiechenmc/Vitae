@@ -1,11 +1,13 @@
 FROM node
 
 WORKDIR /jiechen.dev
-COPY package.json ./
-RUN npm install
+
+COPY package.json yarn.lock ./
+
+RUN yarn
 
 COPY . .
 
-CMD [ "npm", "run", "dev", "--", "--host" ]
+CMD ["yarn", "run", "dev", "--", "--host"]
 
 EXPOSE 3000
