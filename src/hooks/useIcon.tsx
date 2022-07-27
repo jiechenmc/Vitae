@@ -3,7 +3,7 @@ import table from "../data/ICONS";
 import { Icon } from "@iconify/react";
 
 const useIcon = (icon: string) => {
-  const iconQuery = icon.toLowerCase();
+  const iconQuery = icon.toLowerCase().replace(" ", "_");
   const [_icon, _setIcon] = useState<React.ReactElement>();
 
   useEffect(() => {

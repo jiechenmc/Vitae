@@ -43,7 +43,7 @@ const ICONS: { [key: string]: React.ReactElement } = {
   sqlite: (
     <Icon icon="vscode-icons:file-type-sqlite" width={width} height={height} />
   ),
-  githubactions: (
+  github_actions: (
     <Icon icon="logos:github-actions" width={width} height={height} />
   ),
 };
