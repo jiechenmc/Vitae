@@ -8,7 +8,7 @@ Portfolio Website to host my achievements!
 ```bash
 docker compose up
 ```
-#### NPM
+#### Yarn
 ```bash
-npm i && npm run dev
+yarn && yarn run dev
 ```
