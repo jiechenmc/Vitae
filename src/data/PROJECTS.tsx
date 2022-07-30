@@ -8,7 +8,7 @@ export default [
     demo: "https://jiechenmc.duckdns.org/",
     status: "incomplete",
     stack:
-      "Python,TypeScript,React,TailwindCSS,Flask,MySQL,Docker,Nginx,DigitalOcean,Github Actions",
+      "Docker,Python,TypeScript,React,TailwindCSS,Flask,MySQL,Nginx,DigitalOcean,Github Actions",
   },
   {
     title: "jiechen.dev",
@@ -18,7 +18,7 @@ export default [
     repo: "https://github.com/jiechenmc/jiechen.dev",
     demo: "https://jiechen.dev/",
     status: "complete",
-    stack: "TypeScript,React,TailwindCSS,Docker,Firebase",
+    stack: "Docker,TypeScript,React,TailwindCSS,Firebase",
   },
   {
     title: "SBU Prof Data",
@@ -28,7 +28,7 @@ export default [
     repo: "https://github.com/jiechenmc/prof",
     demo: "https://prof-comments.herokuapp.com/docs",
     status: "complete",
-    stack: "Python,Playwright,FastAPI,MongoDB,Docker,Heroku",
+    stack: "Docker,Python,Playwright,FastAPI,MongoDB,Heroku",
   },
   {
     title: "SBU Grade Reports",
@@ -38,7 +38,7 @@ export default [
     repo: "https://github.com/jiechenmc/SBUGradeReports",
     demo: "https://sbugrades.web.app/",
     status: "complete",
-    stack: "TypeScript,React,TailwindCSS,Docker,Firebase",
+    stack: "Docker,TypeScript,React,TailwindCSS,Firebase",
   },
   {
     title: "Intrack",
@@ -49,6 +49,6 @@ export default [
     demo: "https://www.youtube.com/watch?v=glhiGo_j4cI",
     status: "complete",
     stack:
-      "Python,TypeScript,SolidJS,TailwindCSS,Flask,Sqlite,Docker,Nginx,DigitalOcean",
+      "Docker,Python,TypeScript,SolidJS,TailwindCSS,Flask,Sqlite,Nginx,DigitalOcean",
   },
 ];
