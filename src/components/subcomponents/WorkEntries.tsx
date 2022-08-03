@@ -9,7 +9,7 @@ const WorkEntries = ({ period, company, role, description }: WorkElement) => {
 
   return (
     <div className="flex justify-center">
-      <div className="mockup-code max-w-fit w-full mx-1">
+      <div className="mockup-code max-w-4xl w-full mx-1">
         <pre data-prefix="!" className="text-info">
           <code>{period}</code>
         </pre>

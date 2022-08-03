@@ -15,7 +15,7 @@ export const Work = () => {
       <h1 className=" text-2xl light:text-gray-700 dark:text-base-content font-bold text-center my-4">
         Experiences
       </h1>
-      <div>
+      <div className="flex flex-col gap-1">
         {[...WORK]?.reverse().map((work: WorkElement) => (
           <WorkEntries
             key={uuidv4()}
