@@ -18,6 +18,6 @@ export default [
     company: "Major League Hacking",
     role: "MLH PE Fellow Summer 2022",
     description:
-      "Completed 12-weeks of structured curriculum-based learning powered by Meta, covering core Production Engineering topics, supplemented with events/workshops hosted by industry experts\nCreated an open-source personal portfolio website template using Docker, Python, TypeScript, Flask, React, MySQL, Nginx, and unittest\nAutomated testing and deployment workflows by building a CI/CD pipeline with Github Actions\nSet up system and container monitoring, alerting, and visualization using Prometheus and Grafana",
+      "Completed 12-weeks of structured curriculum-based learning powered by Meta\nCreated an open-source Docker containerized Flask application with React front-end and MySQL database\nAutomated testing and deployment workflows by building a CI/CD pipeline with Github Actions\nSet up system and container monitoring, alerting, and visualization using Prometheus and Grafana",
   },
 ];
