@@ -47,13 +47,11 @@ const ThemeToggle = () => {
   }, [isDarkTheme]);
 
   return (
-    <div className="text-center">
-      <label className="swap swap-rotate">
-        <input type="checkbox" onChange={toggleTheme} />
-        <LightIcon className="swap-on fill-black" />
-        <DarkIcon className="swap-off fill-white" />
-      </label>
-    </div>
+    <label className="swap swap-rotate">
+      <input type="checkbox" onChange={toggleTheme} />
+      <LightIcon className="swap-on fill-white" />
+      <DarkIcon className="swap-off fill-black" />
+    </label>
   );
 };
 
