@@ -11,7 +11,7 @@ export default [
     company: "kidOYO",
     role: "Student Mentor",
     description:
-      "Mentored K-12 students on topics related to computer science\nReviewed and provided feedback for programming assignments\nEarned Arie E. Kauffman Mentor Service Award for grading over 100 submissions",
+      "Mentored pre-collegiate students on Python, Scratch, and Sprite Editor\nReviewed and provided feedback for programming assignments\nEarned Arie E. Kauffman Mentor Service Award for grading over 100 submissions",
   },
   {
     period: "May 2022 - August 2022",

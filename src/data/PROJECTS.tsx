@@ -6,7 +6,7 @@ export default [
       "Website built with Flask and React, then expanded upon with modern tools like Docker, MySQL, and etc.",
     repo: "https://github.com/jiechenmc/MLH-PE",
     demo: "https://jiechenmc.duckdns.org/",
-    status: "incomplete",
+    status: "complete",
     stack:
       "Docker,Python,TypeScript,React,Tailwind,Flask,MySQL,Nginx,DigitalOcean,Github Actions",
   },
