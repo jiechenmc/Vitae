@@ -16,7 +16,7 @@ export const Work = () => {
         Experiences
       </h1>
       <div className="flex justify-center">
-        <div className="mockup-code w-full mx-1 max-w-lg hd:max-w-5xl">
+        <div className="mockup-code w-full mx-1 max-w-2xl">
           {[...WORK]?.reverse().map((work: WorkElement) => (
             <WorkEntries
               key={uuidv4()}
