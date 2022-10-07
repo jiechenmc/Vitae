@@ -39,11 +39,11 @@ const ProjectEntries = ({
                     <GithubProjectIcon className="dark:fill-white light:fill-black" />
                   </button>
                 </a>
-                <a href={demo}>
+                {/* <a href={demo}>
                   <button className="btn bg-transparent p-1 border-0 hover:bg-gray-300 dark:hover:bg-gray-300 text-xl">
                     <DemoIcon className="dark:fill-white light:fill-black" />
                   </button>
-                </a>
+                </a> */}
               </div>
             </div>
             <p>{description}</p>
