@@ -44,7 +44,7 @@ export default [
     title: "Intrack",
     date: "July 2022",
     description:
-      "Minimalistic internship tracker powered by SolidJS, Flask, and Sqlite.",
+      "Minimalistic internship tracker powered by SolidJS, Flask, and SQLite.",
     repo: "https://github.com/jiechenmc/intrack",
     demo: "https://www.youtube.com/watch?v=glhiGo_j4cI",
     status: "complete",
