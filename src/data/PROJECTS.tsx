@@ -41,14 +41,13 @@ export default [
     stack: "Docker,TypeScript,React,Tailwind,Firebase",
   },
   {
-    title: "Intrack",
-    date: "July 2022",
+    title: "Gradus",
+    date: "November 2022",
     description:
-      "Minimalistic internship tracker powered by SolidJS, Flask, and SQLite.",
-    repo: "https://github.com/jiechenmc/intrack",
-    demo: "https://www.youtube.com/watch?v=glhiGo_j4cI",
+      "Python script for scraping grade distribution data from SBU Classie Evals",
+    repo: "https://github.com/jiechenmc/Gradus",
+    demo: "https://github.com/jiechenmc/Gradus",
     status: "complete",
-    stack:
-      "Docker,Python,TypeScript,SolidJS,Tailwind,Flask,SQLite,Nginx,DigitalOcean",
+    stack: "Python, MongoDB, Playwright",
   },
 ];
