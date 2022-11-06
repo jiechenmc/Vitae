@@ -48,6 +48,6 @@ export default [
     repo: "https://github.com/jiechenmc/Gradus",
     demo: "https://github.com/jiechenmc/Gradus",
     status: "complete",
-    stack: "Python, MongoDB, Playwright",
+    stack: "Python, MongoDB, Playwright, FastAPI, Docker, Heroku",
   },
 ];
