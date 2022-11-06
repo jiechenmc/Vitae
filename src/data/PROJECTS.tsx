@@ -21,30 +21,30 @@ export default [
     stack: "Docker,TypeScript,React,Tailwind,Firebase",
   },
   {
-    title: "SBU Prof Data",
+    title: "SBU Prof Data (Superseded)",
     date: "June 2022",
     description:
-      "RESTful API for comments and grade distribution data from SBUClassieEval.",
+      "RESTful API for comments and grade distribution data from SBU Classie Evals.",
     repo: "https://github.com/jiechenmc/prof",
     demo: "https://prof-comments.herokuapp.com/docs",
-    status: "complete",
+    status: "",
     stack: "Docker,Python,Playwright,FastAPI,MongoDB,Heroku",
   },
   {
-    title: "SBU Grade Reports",
+    title: "SBU Grade Reports (Outdated)",
     date: "July 2022",
     description:
       "SBUGradeReports is a way for students to view past grade data for professors, classes, and terms.",
     repo: "https://github.com/jiechenmc/SBUGradeReports",
     demo: "https://sbugrades.web.app/",
-    status: "complete",
+    status: "",
     stack: "Docker,TypeScript,React,Tailwind,Firebase",
   },
   {
     title: "Gradus",
     date: "November 2022",
     description:
-      "Python script for scraping grade distribution data from SBU Classie Evals",
+      "Open API for grade distribution data scraped from SBU Classie Evals.",
     repo: "https://github.com/jiechenmc/Gradus",
     demo: "https://github.com/jiechenmc/Gradus",
     status: "complete",
