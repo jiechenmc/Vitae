@@ -44,7 +44,7 @@ export default [
     title: "Gradus",
     date: "November 2022",
     description:
-      "Open API for grade distribution data scraped from SBU Classie Evals.",
+      "RESTful API for grade distribution data scraped from SBU Classie Evals.",
     repo: "https://github.com/jiechenmc/Gradus",
     demo: "https://github.com/jiechenmc/Gradus",
     status: "complete",
