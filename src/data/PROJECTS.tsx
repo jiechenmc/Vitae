@@ -8,7 +8,7 @@ export default [
     demo: "https://jiechenmc.duckdns.org/",
     status: "complete",
     stack:
-      "Docker,Python,TypeScript,React,Tailwind,Flask,MySQL,Nginx,DigitalOcean,Github Actions",
+      "Python,TypeScript,React,Tailwind,Flask,MySQL,Nginx,Docker,DigitalOcean,Github Actions",
   },
   {
     title: "jiechen.dev",
@@ -18,7 +18,7 @@ export default [
     repo: "https://github.com/jiechenmc/jiechen.dev",
     demo: "https://jiechen.dev/",
     status: "complete",
-    stack: "Docker,TypeScript,React,Tailwind,Firebase",
+    stack: "TypeScript,React,Tailwind,Docker,Firebase",
   },
   {
     title: "SBU Prof Data (Superseded)",
@@ -28,7 +28,7 @@ export default [
     repo: "https://github.com/jiechenmc/prof",
     demo: "https://prof-comments.herokuapp.com/docs",
     status: "",
-    stack: "Docker,Python,Playwright,FastAPI,MongoDB,Heroku",
+    stack: "Python, MongoDB, Playwright, FastAPI, Docker, Heroku",
   },
   {
     title: "SBU Grade Reports (Outdated)",
@@ -38,7 +38,7 @@ export default [
     repo: "https://github.com/jiechenmc/SBUGradeReports",
     demo: "https://sbugrades.web.app/",
     status: "",
-    stack: "Docker,TypeScript,React,Tailwind,Firebase",
+    stack: "TypeScript,React,Tailwind,Docker,Firebase",
   },
   {
     title: "Gradus",
