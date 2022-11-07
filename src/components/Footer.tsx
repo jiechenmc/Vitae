@@ -4,9 +4,10 @@ import { ReactComponent as GithubFooterIcon } from "../assets/GithubFooterIcon.s
 const Footer = () => {
   return (
     <footer className="footer footer-center items-center p-2 bg-base-300 text-base">
-      <div className="flex flex-col justify-center gap-x-3">
+      <div className="grid grid-cols-2">
         <div>
-          <p>:: Connect With Me! ::</p>
+          <p>Jie Chen</p>
+          <p>CS @ Stony Brook University</p>
         </div>
         <div>
           <a href="https://github.com/jiechenmc">
