@@ -28,8 +28,10 @@ const ProjectEntries = ({
       >
         <div className="card w-full">
           <div className="card-body">
-            <h2 className="card-title">{title}</h2>
-            <div className="flex justify-start">
+            <h2 className="card-title text-center">
+              <p>{title}</p>
+            </h2>
+            <div className="flex justify-center">
               <div className="badge badge-md mr-1 capitalize mt-auto mb-auto bg-transparent text-current">
                 <p>{date}</p>
               </div>
@@ -46,7 +48,7 @@ const ProjectEntries = ({
                 </a>
               </div>
             </div>
-            <p>{description}</p>
+            <p className="text-center">{description}</p>
             <div className="divider mb-1">Tech Stack</div>
             <div className="flex gap-1 mb-1 justify-center">{icons}</div>
           </div>

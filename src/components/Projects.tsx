@@ -23,13 +23,13 @@ const Projects = () => {
           <h1 className="my-4 text-2xl light:text-gray-700 dark:text-base-content font-bold text-center">
             Projects
           </h1>
-          <div className="text-center my-2">
+          <div className="text-center my-4">
             <label htmlFor="my-drawer" className="btn btn-accent drawer-button">
               Show Outdated Projects
             </label>
           </div>
 
-          <div className="sm:flex-col lg:grid lg:grid-cols-3 hd:grid-cols-4 mba:grid-cols-5 justify-between ">
+          <div className="sm:flex-col lg:grid lg:grid-cols-3 hd:grid-cols-4 mba:grid-cols-5 justify-center ">
             {recentProjects.map((project: ProjectElement) => (
               <ProjectEntries
                 key={uuidv4()}
