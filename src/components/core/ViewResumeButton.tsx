@@ -1,4 +1,4 @@
-import { ReactComponent as ResumeIcon } from "../assets/ResumeIcon.svg";
+import { ReactComponent as ResumeIcon } from "../../assets/ResumeIcon.svg";
 
 const ViewResumeButton = () => {
   return (

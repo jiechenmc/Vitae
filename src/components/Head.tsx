@@ -1,6 +1,6 @@
 import ViewResumeButton from "./core/ViewResumeButton";
 import worry from "../assets/worry_study.webp";
-import NavBar from "./NavBar";
+import NavBar from "./core/NavBar";
 
 const Head = () => {
   return (

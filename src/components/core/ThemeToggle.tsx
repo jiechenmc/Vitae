@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import { ReactComponent as LightIcon } from "../assets/ToggleLight.svg";
-import { ReactComponent as DarkIcon } from "../assets/ToggleDark.svg";
+import { ReactComponent as LightIcon } from "../../assets/ToggleLight.svg";
+import { ReactComponent as DarkIcon } from "../../assets/ToggleDark.svg";
 
 const ThemeToggle = () => {
   const [isDarkTheme, setIsDarkTheme] = useState(false);
