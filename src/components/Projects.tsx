@@ -1,4 +1,4 @@
-import ProjectEntries from "./subcomponents/ProjectEntries";
+import ProjectEntries from "./core/ProjectEntries";
 import PROJECTS from "../data/PROJECTS";
 import { v4 as uuidv4 } from "uuid";
 

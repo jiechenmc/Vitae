@@ -1,4 +1,4 @@
-import ThemeToggle from "./ThemeToggle";
+import ThemeToggle from "./subcomponents/ThemeToggle";
 import { ReactComponent as ProjectsIcon } from "../assets/ProjectsIcon.svg";
 import { ReactComponent as AboutIcon } from "../assets/AboutIcon.svg";
 import { ReactComponent as EducationIcon } from "../assets/EducationIcon.svg";

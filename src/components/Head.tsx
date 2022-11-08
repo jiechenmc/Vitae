@@ -1,4 +1,4 @@
-import ViewResumeButton from "./ViewResumeButton";
+import ViewResumeButton from "./core/ViewResumeButton";
 import worry from "../assets/worry_study.webp";
 import NavBar from "./NavBar";
 

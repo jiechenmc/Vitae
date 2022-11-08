@@ -1,4 +1,4 @@
-import ClassEntries from "./subcomponents/ClassEntries";
+import ClassEntries from "./core/ClassEntries";
 import CLASSES from "../data/CLASSES";
 import { v4 as uuidv4 } from "uuid";
 import SBULogo from "../assets/sbu.webp";
