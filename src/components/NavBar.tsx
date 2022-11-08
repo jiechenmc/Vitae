@@ -10,17 +10,17 @@ const NavBar = () => {
       <div>
         <ul className="menu menu-horizontal">
           <li>
-            <a href="#home">
+            <a href="#about">
               <AboutIcon className="dark:fill-white light:fill-black" />
               <p className="hidden md:block">About</p>
             </a>
           </li>
-          <li>
+          {/* <li>
             <a href="#work">
               <WorkIcon className="stroke-black dark:stroke-white " />
               <p className="hidden md:block">Experience</p>
             </a>
-          </li>
+          </li> */}
           <li>
             <a href="#education">
               <EducationIcon className="dark:fill-white light:fill-black" />
