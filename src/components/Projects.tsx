@@ -29,7 +29,7 @@ const Projects = () => {
             </label>
           </div>
 
-          <div className="sm:flex-col lg:grid lg:grid-cols-2 lgp:grid-cols-3 hd:grid-cols-3 mba:grid-cols-5 justify-center ">
+          <div className="sm:flex-col lg:grid lg:grid-cols-2 lgp:grid-cols-3 hd:grid-cols-4 mba:grid-cols-5 justify-center ">
             {recentProjects.map((project: ProjectElement) => (
               <ProjectEntries
                 key={uuidv4()}
