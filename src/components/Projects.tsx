@@ -25,7 +25,7 @@ const Projects = () => {
           </h1>
           <div className="text-center my-4">
             <label htmlFor="my-drawer" className="btn btn-accent drawer-button">
-              Show Outdated Projects
+              Show Legacy Projects
             </label>
           </div>
 
