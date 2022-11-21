@@ -10,6 +10,7 @@ export interface ProjectElement {
   status: string;
   stack: string;
   demo: string;
+  star: string;
 }
 
 const Projects = () => {
@@ -40,6 +41,7 @@ const Projects = () => {
                 status={project?.status}
                 stack={project?.stack}
                 demo={project?.demo}
+                star={project?.star}
               />
             ))}
           </div>
@@ -57,6 +59,7 @@ const Projects = () => {
                 status={project?.status}
                 stack={project?.stack}
                 demo={project?.demo}
+                star={project?.star}
               />
             ))}
           </ul>

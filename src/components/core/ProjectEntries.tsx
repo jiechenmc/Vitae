@@ -11,6 +11,7 @@ const ProjectEntries = ({
   status,
   stack,
   demo,
+  star,
 }: ProjectElement) => {
   const statusStyles: { [key: string]: string } = {
     complete: "border-success",
@@ -22,13 +23,21 @@ const ProjectEntries = ({
   return (
     <div className="flex justify-center mb-2">
       <div
-        className={`flex max-w-sm w-full mb-2 border-2 rounded-lg shadow-lg ${
+        className={`flex max-w-sm w-full mb-2 border-2 rounded-lg shadow-lg indicator ${
           statusStyles[status] ?? "border-red-500"
         }`}
       >
+        {star ? (
+          <span className="indicator-item badge bg-transparent border-0 text-xl">
+            ⭐
+          </span>
+        ) : (
+          ""
+        )}
+
         <div className="card w-full">
           <div className="card-body">
-            <h2 className="card-title text-center">
+            <h2 className="card-title text-center ">
               <p>{title}</p>
             </h2>
             <div className="flex justify-center">

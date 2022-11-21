@@ -8,6 +8,7 @@ export default [
     demo: "https://github.com/jiechenmc/shr-scraper",
     status: "complete",
     stack: "Nodejs,Puppeteer",
+    star: "",
   },
   {
     title: "MLH-PE Portfolio Site (Superseded)",
@@ -19,7 +20,9 @@ export default [
     status: "",
     stack:
       "Python,TypeScript,React,Tailwind,Flask,MySQL,Nginx,Docker,DigitalOcean,Github Actions",
+    star: "",
   },
+
   {
     title: "jiechen.dev",
     date: "June 2022",
@@ -29,6 +32,7 @@ export default [
     demo: "https://jiechen.dev/",
     status: "complete",
     stack: "TypeScript,React,Tailwind,Docker,Firebase",
+    star: "true",
   },
   {
     title: "SBU Prof Data (Superseded)",
@@ -39,6 +43,7 @@ export default [
     demo: "https://prof-comments.herokuapp.com/docs",
     status: "",
     stack: "Python,MongoDB,Playwright,FastAPI,Docker,Heroku",
+    star: "",
   },
   {
     title: "Intrack",
@@ -49,6 +54,7 @@ export default [
     demo: "https://github.com/jiechenmc/intrack",
     status: "complete",
     stack: "TypeScript,Solidjs,Tailwind,Sqlite,Flask,Docker",
+    star: "",
   },
   {
     title: "SBU Grade Reports (Updating)",
@@ -59,6 +65,7 @@ export default [
     demo: "https://sbugrades.web.app/",
     status: "incomplete",
     stack: "TypeScript,React,Tailwind,Docker,Firebase",
+    star: "",
   },
   {
     title: "SHR Scraper Ultimate",
@@ -69,6 +76,7 @@ export default [
     demo: "https://github.com/jiechenmc/shr-scraper-ultimate",
     status: "complete",
     stack: "Python,Playwright",
+    star: "true",
   },
   {
     title: "Gradus",
@@ -79,5 +87,6 @@ export default [
     demo: "https://gradus.jiechen.dev/",
     status: "complete",
     stack: "Python,MongoDB,Playwright,FastAPI,Docker,Heroku",
+    star: "true",
   },
 ];
