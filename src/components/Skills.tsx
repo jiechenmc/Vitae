@@ -18,6 +18,8 @@ const Skills = () => {
     "nodejs",
     "sqlite",
     "github actions",
+    "bash",
+    "flask",
   ].map((e) => useIcon(e));
   const learning = ["deno", "fresh", "go"].map((e) => useIcon(e));
 

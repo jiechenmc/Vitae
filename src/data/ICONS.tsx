@@ -12,7 +12,14 @@ const ICONS: { [key: string]: React.ReactElement } = {
   python: <Icon icon="logos:python" width={width} height={height} />,
   firebase: <Icon icon="logos:firebase" width={width} height={height} />,
   mysql: <Icon icon="logos:mysql-icon" width={width} height={height} />,
-  flask: <Icon icon="file-icons:flask" width={width} height={height} />,
+  flask: (
+    <Icon
+      icon="simple-icons:flask"
+      color="black"
+      width={width}
+      height={height}
+    />
+  ),
   docker: <Icon icon="logos:docker-icon" width={width} height={height} />,
   bash: <Icon icon="logos:bash-icon" width={width} height={height} />,
   fastapi: (
@@ -52,6 +59,7 @@ const ICONS: { [key: string]: React.ReactElement } = {
   nodejs: <Icon icon="logos:nodejs-icon" width={width} height={height} />,
   java: <Icon icon="logos:java" width={width} height={height} />,
   fresh: <Icon icon="logos:fresh" width={width} height={height} />,
+  puppeteer: <Icon icon="logos:puppeteer" width={width} height={height} />,
 };
 
 export default ICONS;
