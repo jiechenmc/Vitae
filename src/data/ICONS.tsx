@@ -46,6 +46,12 @@ const ICONS: { [key: string]: React.ReactElement } = {
   github_actions: (
     <Icon icon="logos:github-actions" width={width} height={height} />
   ),
+  go: <Icon icon="vscode-icons:file-type-go" width={width} height={height} />,
+  c: <Icon icon="logos:c" width={width} height={height} />,
+  deno: <Icon icon="logos:deno" width={width} height={height} />,
+  nodejs: <Icon icon="logos:nodejs-icon" width={width} height={height} />,
+  java: <Icon icon="logos:java" width={width} height={height} />,
+  fresh: <Icon icon="logos:fresh" width={width} height={height} />,
 };
 
 export default ICONS;
