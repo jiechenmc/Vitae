@@ -3,25 +3,25 @@ import SkillCircle from "./core/SkillCircle";
 
 const Skills = () => {
   const proficient = [
-    "react",
-    "python",
-    "typescript",
-    "tailwind",
-    "playwright",
-    "fastapi",
-    "java",
+    "React",
+    "Python",
+    "TypeScript",
+    "Tailwind",
+    "Playwright",
+    "FastAPI",
+    "Java",
   ].map((e) => useIcon(e));
   const intermediate = [
-    "docker",
-    "nginx",
-    "mongoDB",
-    "nodejs",
-    "sqlite",
-    "github actions",
-    "bash",
-    "flask",
+    "Docker",
+    "Nginx",
+    "MongoDB",
+    "Nodejs",
+    "SQLite",
+    "Github Actions",
+    "Bash",
+    "Flask",
   ].map((e) => useIcon(e));
-  const learning = ["deno", "fresh", "go"].map((e) => useIcon(e));
+  const learning = ["Deno", "Fresh", "C", "go"].map((e) => useIcon(e));
 
   return (
     <div id="skills" className="mb-4">

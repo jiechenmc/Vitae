@@ -53,7 +53,7 @@ export default [
     repo: "https://github.com/jiechenmc/intrack",
     demo: "https://github.com/jiechenmc/intrack",
     status: "complete",
-    stack: "TypeScript,Solidjs,Tailwind,Sqlite,Flask,Docker",
+    stack: "TypeScript,Solidjs,Tailwind,SQLite,Flask,Docker",
     star: "",
   },
   {
