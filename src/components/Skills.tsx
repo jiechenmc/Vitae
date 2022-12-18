@@ -21,7 +21,7 @@ const Skills = () => {
     "Bash",
     "Flask",
   ].map((e) => useIcon(e));
-  const learning = ["Deno", "Fresh", "C", "go"].map((e) => useIcon(e));
+  const learning = ["c", "nextJS", "go"].map((e) => useIcon(e));
 
   return (
     <div id="skills" className="mb-4">
