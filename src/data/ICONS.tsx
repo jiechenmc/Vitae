@@ -30,9 +30,7 @@ const ICONS: { [key: string]: React.ReactElement } = {
       height={height}
     />
   ),
-  mongodb: (
-    <Icon icon="vscode-icons:file-type-mongo" width={width} height={height} />
-  ),
+  mongodb: <Icon icon="logos:mongodb-icon" width={width} height={height} />,
   digitalocean: (
     <Icon
       icon="simple-icons:digitalocean"
@@ -60,6 +58,7 @@ const ICONS: { [key: string]: React.ReactElement } = {
   java: <Icon icon="logos:java" width={width} height={height} />,
   fresh: <Icon icon="logos:fresh" width={width} height={height} />,
   puppeteer: <Icon icon="logos:puppeteer" width={width} height={height} />,
+  nextjs: <Icon icon="logos:nextjs-icon" width={width} height={height} />,
 };
 
 export default ICONS;
