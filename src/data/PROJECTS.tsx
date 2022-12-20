@@ -56,13 +56,13 @@ export default [
     star: "",
   },
   {
-    title: "SBU Grade Reports (Updating)",
+    title: "SBU Grade Reports",
     date: "July 2022",
     description:
       "SBUGradeReports is a way for students to view past grade data for professors, classes, and terms.",
     repo: "https://github.com/jiechenmc/SBUGradeReports",
     demo: "https://sbugrades.web.app/",
-    status: "",
+    status: "complete",
     stack: "TypeScript,React,Tailwind,Docker,Firebase",
     star: "",
   },
