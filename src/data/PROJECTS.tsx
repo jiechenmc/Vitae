@@ -31,7 +31,7 @@ export default [
     repo: "https://github.com/jiechenmc/jiechen.dev",
     demo: "https://jiechen.dev/",
     status: "complete",
-    stack: "TypeScript,React,Tailwind,Docker,Firebase",
+    stack: "TypeScript,React,Docker,Tailwind,Firebase",
     star: "true",
   },
   {
@@ -52,7 +52,7 @@ export default [
     repo: "https://github.com/jiechenmc/intrack",
     demo: "https://github.com/jiechenmc/intrack",
     status: "complete",
-    stack: "TypeScript,Solidjs,Tailwind,SQLite,Flask,Docker",
+    stack: "TypeScript,SolidJS,SQLite,Flask,Docker,Tailwind",
     star: "",
   },
   {
@@ -63,7 +63,7 @@ export default [
     repo: "https://github.com/jiechenmc/SBUGradeReports",
     demo: "https://sbugrades.web.app/",
     status: "complete",
-    stack: "TypeScript,React,Tailwind,Docker,Firebase",
+    stack: "TypeScript,React,Docker,Tailwind,Firebase",
     star: "",
   },
   {
@@ -96,7 +96,7 @@ export default [
     repo: "https://github.com/jiechenmc/Distr",
     demo: "https://distr.jiechen.dev/",
     status: "complete",
-    stack: "TypeScript,NextJS",
+    stack: "TypeScript,React,NextJS,Tailwind",
     star: "true",
   },
 ];
