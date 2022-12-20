@@ -48,8 +48,7 @@ export default [
   {
     title: "Intrack",
     date: "July 2022",
-    description:
-      "SBUGradeReports is a way for students to view past grade data for professors, classes, and terms.",
+    description: "Intrack is a simple internship tracker",
     repo: "https://github.com/jiechenmc/intrack",
     demo: "https://github.com/jiechenmc/intrack",
     status: "complete",
@@ -63,7 +62,7 @@ export default [
       "SBUGradeReports is a way for students to view past grade data for professors, classes, and terms.",
     repo: "https://github.com/jiechenmc/SBUGradeReports",
     demo: "https://sbugrades.web.app/",
-    status: "incomplete",
+    status: "",
     stack: "TypeScript,React,Tailwind,Docker,Firebase",
     star: "",
   },
@@ -71,7 +70,7 @@ export default [
     title: "SHR Scraper Ultimate",
     date: "September 2022",
     description:
-      "Automatically scrapes all subjects of a year; improved accuracy with CSS Selectors; minimal manual intervention",
+      "Automatically scrapes all subjects of a year; improved accuracy with CSS Selectors; minimal human intervention",
     repo: "https://github.com/jiechenmc/shr-scraper-ultimate",
     demo: "https://github.com/jiechenmc/shr-scraper-ultimate",
     status: "complete",
@@ -87,6 +86,17 @@ export default [
     demo: "https://gradus.jiechen.dev/",
     status: "complete",
     stack: "Python,MongoDB,Playwright,FastAPI,Docker,Heroku",
+    star: "true",
+  },
+  {
+    title: "Distr",
+    date: "December 2022",
+    description:
+      "Distr is a way for students to view past grade data distribution with interactive charts created by Chart.js",
+    repo: "https://github.com/jiechenmc/Distr",
+    demo: "https://distr.jiechen.dev/",
+    status: "complete",
+    stack: "TypeScript,NextJS",
     star: "true",
   },
 ];
