@@ -28,8 +28,8 @@ const ProjectEntries = ({
         }`}
       >
         {star ? (
-          <span className="indicator-item badge bg-transparent border-0 text-xl">
-            ⭐
+          <span className="indicator-item badge bg-transparent border-0 text-2xl">
+            🌐
           </span>
         ) : (
           ""

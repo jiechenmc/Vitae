@@ -75,7 +75,7 @@ export default [
     demo: "https://github.com/jiechenmc/shr-scraper-ultimate",
     status: "complete",
     stack: "Python,Playwright",
-    star: "true",
+    star: "",
   },
   {
     title: "Gradus",
@@ -98,5 +98,16 @@ export default [
     status: "complete",
     stack: "TypeScript,React,NextJS,Tailwind",
     star: "true",
+  },
+  {
+    title: "Cls",
+    date: "January 2023",
+    description:
+      "A Go script to retrieve real-time data from SBU Class Find to quickly check the availability of seats in a class",
+    repo: "https://github.com/jiechenmc/Cls",
+    demo: "#",
+    status: "complete",
+    stack: "Go,Playwright",
+    star: "",
   },
 ];
