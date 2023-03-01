@@ -110,4 +110,15 @@ export default [
     stack: "Go,Playwright",
     star: "",
   },
+  {
+    title: "Loqi",
+    date: "January 2023",
+    description:
+      "Loqi is a student-focused chat application that enables current students to connect with past students of courses they are interested in, fostering community and increasing educational resources",
+    repo: "https://github.com/viLoqi",
+    demo: "#",
+    status: "complete",
+    stack: "Go,NextJS,Docker",
+    star: "",
+  },
 ];

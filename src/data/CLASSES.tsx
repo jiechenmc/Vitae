@@ -21,6 +21,24 @@ export default [
     courseCode: "CSE216",
     courseName: "Programming Abstractions",
     instructor: "Ritwik Banerjee",
+    completed: true,
+  },
+  {
+    courseCode: "CSE220",
+    courseName: "Systems Fundamentals I",
+    instructor: "Kevin Mcdonnell",
+    completed: false,
+  },
+  {
+    courseCode: "CSE311",
+    courseName: "Systems Administration",
+    instructor: "Ahmad Esmaili",
+    completed: false,
+  },
+  {
+    courseCode: "CSE316",
+    courseName: "Fundamentals of Software Development",
+    instructor: "Joydeep Mitra",
     completed: false,
   },
 ];
