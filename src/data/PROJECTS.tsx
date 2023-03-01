@@ -74,7 +74,7 @@ export default [
     repo: "https://github.com/jiechenmc/shr-scraper-ultimate",
     demo: "https://github.com/jiechenmc/shr-scraper-ultimate",
     status: "complete",
-    stack: "Python,Playwright",
+    stack: "Nodejs,Playwright",
     star: "",
   },
   {
