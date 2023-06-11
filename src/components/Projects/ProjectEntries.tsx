@@ -2,7 +2,7 @@ import useIcon from "../../hooks/useIcon";
 import { ReactComponent as GithubProjectIcon } from "../../assets/icons/GithubProjectIcon.svg";
 import { ReactComponent as DemoIcon } from "../../assets/icons/DemoIcon.svg";
 import { ProjectElement } from "../../data/projects";
-import defaultThumbnail from '../../assets/thumbnails/default.jpg'
+import defaultThumbnail from '/thumbnails/default.jpg'
 
 const ProjectEntries = ({
   title,

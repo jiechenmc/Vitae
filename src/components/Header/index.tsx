@@ -1,5 +1,5 @@
 import ViewResumeButton from "./ViewResumeButton";
-import defaultThumbnail from '../../assets/thumbnails/default.jpg'
+import defaultThumbnail from '/thumbnails/default.jpg'
 import NavBar from "./Navbar";
 import ViewGithubButton from "./ViewGithubButton";
 

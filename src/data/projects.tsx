@@ -19,7 +19,7 @@ export default [
     demo: "https://jiechen.dev/",
     status: "complete",
     stack: "TypeScript,React,Docker,Tailwind,Firebase",
-    thumbnail: "/src/assets/thumbnails/jiechen.dev.jpg"
+    thumbnail: "/thumbnails/jiechen.dev.jpg"
   },
   {
     title: "Gradus",
@@ -30,7 +30,7 @@ export default [
     demo: "https://gradus.jiechen.dev/",
     status: "complete",
     stack: "Python,MongoDB,Playwright,FastAPI,Docker,Heroku",
-    thumbnail: "/src/assets/thumbnails/gradus.png"
+    thumbnail: "/thumbnails/gradus.jpg"
   },
   {
     title: "Distr",
@@ -51,7 +51,7 @@ export default [
     demo: "#",
     status: "complete",
     stack: "Go,Playwright",
-    thumbnail: "/src/assets/thumbnails/cls.jpg"
+    thumbnail: "/thumbnails/cls.jpg"
   },
   {
     title: "Loqi",
@@ -62,7 +62,7 @@ export default [
     demo: "https://vm1.cs.stonybrook.edu/",
     status: "complete",
     stack: "Go,NextJS,Docker",
-    thumbnail: "/src/assets/thumbnails/loqi.png"
+    thumbnail: "/thumbnails/loqi.png"
   },
 ];
 
