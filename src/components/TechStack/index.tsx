@@ -27,9 +27,10 @@ const Skills = () => {
       <h1 className="flex-col text-2xl text-base-content font-bold text-center my-4">
         Tech Stack
         <div className="flex gap-2 justify-center mt-4">
-          <span className="badge text-success">Proficient</span>
-          <span className="badge text-warning">Intermediate</span>
-          <span className="badge text-gray">Learning</span>
+          <button className="badge text-success">All</button>
+          <button className="badge text-warning">Web Development</button>
+          <button className="badge text-success">Web Design</button>
+          <button className="badge text-warning">DevOps</button>
         </div>
       </h1>
 

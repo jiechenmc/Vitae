@@ -8,11 +8,9 @@ const Head = () => {
         <div id="home">
             <NavBar />
             <div className="hero min-h-screen bg-base-200 justify-center text-center">
-                <div className="hero-content grid lg:flex-row justify-center ">
+                <div className="hero-content grid lg:flex-row justify-center p-0">
 
-                    <div className="grid grid-cols-1 object-center justify-center">
-                        <div> <img src={meme} className="max-w-sm rounded-lg shadow-2xl" /></div>
-                    </div>
+                    <img src={meme} className="max-w-sm rounded-lg shadow-2xl" />
                     <img id="AnimatedIntroduction" className="object-center text-center justify-center flex" />
 
                     <div className="hero-content flex-col">

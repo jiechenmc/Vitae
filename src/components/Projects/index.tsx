@@ -1,17 +1,6 @@
 import ProjectEntries from "./ProjectEntries";
-import PROJECTS from "../../data/PROJECTS";
+import PROJECTS, { ProjectElement } from "../../data/projects";
 import { v4 as uuidv4 } from "uuid";
-
-export interface ProjectElement {
-    title: string;
-    date: string;
-    description: string;
-    repo: string;
-    status: string;
-    stack: string;
-    demo: string;
-    star: string;
-}
 
 const Projects = () => {
     const recentProjects = PROJECTS.filter((e) => e.status != "").reverse();

@@ -1,3 +1,14 @@
+export interface ProjectElement {
+  title: string;
+  date: string;
+  description: string;
+  repo: string;
+  status: string;
+  stack: string;
+  demo: string;
+  star: string;
+}
+
 export default [
   {
     title: "jiechen.dev",
@@ -55,3 +66,4 @@ export default [
     star: "",
   },
 ];
+

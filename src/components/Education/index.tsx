@@ -1,14 +1,9 @@
 import ClassEntries from "./ClassEntries";
-import CLASSES from "../../data/CLASSES";
+import CLASSES from "../../data/classes";
 import { v4 as uuidv4 } from "uuid";
 import SBULogo from "../../assets/sbu.webp";
+import { ClassElement } from "../../data/classes";
 
-export interface ClassElement {
-    courseCode: string;
-    courseName: string;
-    instructor: string;
-    completed: boolean;
-}
 
 const Education = () => {
     return (

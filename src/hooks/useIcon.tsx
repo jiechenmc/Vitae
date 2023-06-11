@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import table from "../data/ICONS";
+import table from "../data/icons";
 import { Icon } from "@iconify/react";
 
 const useIcon = (icon: string) => {

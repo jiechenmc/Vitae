@@ -1,7 +1,8 @@
 import useIcon from "../../hooks/useIcon";
 import { ReactComponent as GithubProjectIcon } from "../../assets/GithubProjectIcon.svg";
 import { ReactComponent as DemoIcon } from "../../assets/DemoIcon.svg";
-import { ProjectElement } from ".";
+import { ProjectElement } from "../../data/projects";
+import meme from '../../assets/meme.jpg'
 
 const ProjectEntries = ({
   title,
@@ -23,17 +24,17 @@ const ProjectEntries = ({
   return (
     <div className="flex justify-center mb-2">
       <div
-        className={`flex max-w-xl w-full mb-2 border-2 rounded-lg shadow-lg indicator ${statusStyles[status] ?? "border-red-500"
+        className={`flex w-max max-w-2xl mb-2 border-2 rounded-lg shadow-lg indicator ${statusStyles[status] ?? "border-red-500"
           }`}
       >
-        <div className="card card-side w-full">
-          <figure><img src="https://picsum.photos/800/800" alt="Movie" width={800} height={800} /></figure>
+        <div className="card card-side">
+          <figure><img src={meme} className="w-60 h-60 p-4" alt="Movie" /></figure>
           <div className="card-body">
             <h2 className="card-title text-center ">
               <p>{title}</p>
             </h2>
             <div className="flex justify-center">
-              <div className="badge badge-md mr-1 capitalize mt-auto mb-auto bg-transparent text-current">
+              <div className="badge badge-md mr-1 capitalize mt-auto mb-auto bg-transparent text-current w-max">
                 <p>{date}</p>
               </div>
               <div className="flex gap-1">
@@ -49,13 +50,13 @@ const ProjectEntries = ({
                 </a>
               </div>
             </div>
-            <p className="text-center">{description}</p>
+            <p className="w-50">{description}</p>
             <div className="divider mb-1">Tech Stack</div>
             <div className="flex gap-1 mb-1 justify-center">{icons}</div>
           </div>
         </div>
       </div>
-    </div>
+    </div >
   );
 };
 

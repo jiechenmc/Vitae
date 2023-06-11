@@ -1,3 +1,10 @@
+export interface ClassElement {
+  courseCode: string;
+  courseName: string;
+  instructor: string;
+  completed: boolean;
+}
+
 export default [
   {
     courseCode: "CSE114",

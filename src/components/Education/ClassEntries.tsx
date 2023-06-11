@@ -1,4 +1,4 @@
-import { ClassElement } from "../Education";
+import { ClassElement } from "../../data/classes";
 
 const ClassEntries = ({
     courseCode,

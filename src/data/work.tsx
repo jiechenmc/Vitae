@@ -1,3 +1,10 @@
+export interface WorkElement {
+  period: string,
+  company: string,
+  role: string,
+  thumbnail: string
+}
+
 export default [
   {
     period: "April 2022 - August 2022",
