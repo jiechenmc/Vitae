@@ -62,7 +62,7 @@ export default [
     repo: "https://github.com/viLoqi",
     demo: "https://vm1.cs.stonybrook.edu/",
     status: "complete",
-    stack: "Go,NextJS,Docker",
+    stack: "Go,NextJS,Docker,NGINX",
     thumbnail: "/thumbnails/loqi.png"
   },
 ];

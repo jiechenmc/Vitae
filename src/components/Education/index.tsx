@@ -1,8 +1,7 @@
 import ClassEntries from "./ClassEntries";
-import CLASSES from "../../data/classes";
+import CLASSES, { ClassElement, GPA } from "../../data/classes";
 import { v4 as uuidv4 } from "uuid";
 import SBULogo from "../../assets/sbu.webp";
-import { ClassElement } from "../../data/classes";
 
 
 const Education = () => {
@@ -19,7 +18,7 @@ const Education = () => {
                     <p className="font-bold w-36 ">B.S. — Computer Science</p>
                     <small className="font-bold ">Expected Graduation: May 2025</small>
                     <br />
-                    <small className="font-bold">GPA: 3.56</small>
+                    <small className="font-bold">GPA: {GPA}</small>
                 </div>
             </div>
 

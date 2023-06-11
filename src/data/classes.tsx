@@ -1,9 +1,12 @@
+export const GPA: number = 3.56
+
 export interface ClassElement {
   courseCode: string;
   courseName: string;
   instructor: string;
   completed: boolean;
 }
+
 
 export default [
   {

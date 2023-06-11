@@ -28,9 +28,9 @@ const Navbar = () => {
                         </a>
                     </li>
                     <li>
-                        <a href="#skills">
+                        <a href="#techstack">
                             <SkillIcon className="stroke-black dark:stroke-white " />
-                            <p className="hidden md:block">Skills</p>
+                            <p className="hidden md:block">Tech Stack</p>
                         </a>
                     </li>
                     <li>
