@@ -41,6 +41,7 @@ export default [
     demo: "https://distr.jiechen.dev/",
     status: "complete",
     stack: "TypeScript,React,NextJS,Tailwind",
+    thumbnail: "/thumbnails/distr.jpg"
   },
   {
     title: "Cls",
