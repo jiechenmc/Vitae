@@ -27,7 +27,7 @@ const ProjectEntries = ({
         className={`flex w-max max-w-2xl mb-2 border-2 rounded-lg shadow-lg indicator ${statusStyles[status] ?? "border-red-500"
           }`}
       >
-        <div className="card card-side">
+        <div className="card sm:card-side">
           <figure><img src={meme} className="w-60 h-60 p-4" alt="Movie" /></figure>
           <div className="card-body">
             <h2 className="card-title text-center ">
@@ -50,7 +50,7 @@ const ProjectEntries = ({
                 </a>
               </div>
             </div>
-            <p className="w-50">{description}</p>
+            <p className="">{description}</p>
             <div className="divider mb-1">Tech Stack</div>
             <div className="flex gap-1 mb-1 justify-center">{icons}</div>
           </div>

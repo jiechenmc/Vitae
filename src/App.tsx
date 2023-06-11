@@ -7,7 +7,7 @@ import TechStack from "./components/TechStack";
 
 function App() {
   return (
-    <div>
+    <div className="overflow-hidden">
       <Header />
       <div className="justify-evenly sm:flex-col md:flex-row">
         <About />

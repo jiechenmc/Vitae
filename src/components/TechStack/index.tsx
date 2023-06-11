@@ -26,7 +26,7 @@ const Skills = () => {
     <div id="skills" className="mb-4">
       <h1 className="flex-col text-2xl text-base-content font-bold text-center my-4">
         Tech Stack
-        <div className="flex gap-2 justify-center mt-4">
+        <div className="grid sm:flex gap-2 justify-center mt-4">
           <button className="badge text-success">All</button>
           <button className="badge text-warning">Web Development</button>
           <button className="badge text-success">Web Design</button>
