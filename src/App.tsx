@@ -1,3 +1,4 @@
+import About from "./components/About";
 import Classes from "./components/Education";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
@@ -9,6 +10,7 @@ function App() {
     <div>
       <Header />
       <div className="justify-evenly sm:flex-col md:flex-row">
+        <About />
         <Classes />
         <Projects />
         <TechStack />

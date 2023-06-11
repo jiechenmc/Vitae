@@ -24,8 +24,8 @@ const ThemeToggle = () => {
     // const statsLight = `https://github-readme-stats.vercel.app/api/top-langs/?username=jiechenmc&layout=compact&theme=light&hide_border=true&text_color=${lightTextColor}&title_color=${lightTextColor}&hide_title=true&exclude_repo=notes`;
     // const statsDark = `https://github-readme-stats.vercel.app/api/top-langs/?username=jiechenmc&layout=compact&theme=dark&hide_border=true&bg_color=2a303c&text_color=${darkTextColor}&title_color=${darkTextColor}&hide_title=true&exclude_repo=notes`;
 
-    const typewriterLight = `https://readme-typing-svg.demolab.com?font=Fira+Code&duration=1000&pause=1000&color=${lightTextColor}&width=435&lines=Hello+I'm+Jie!;My+interests+are%3A;Software+Engineering🖥️...;Site+Reliability+Engineering💾...;And DevOPS✅!`;
-    const typewriterDark = `https://readme-typing-svg.demolab.com?font=Fira+Code&duration=1000&pause=1000&color=${darkTextColor}&width=435&lines=Hello+I'm+Jie!;My+interests+are%3A;Software+Engineering🖥️...;Site+Reliability+Engineering💾...;And DevOPS✅!`;
+    const typewriterLight = `https://readme-typing-svg.demolab.com?font=Fira+Code&duration=1000&pause=1000&color=${lightTextColor}&center=true&vCenter=true&width=435&lines=Hello+I'm+Jie!;My+interests+are%3A;Software+Engineering🖥️...;Site+Reliability+Engineering💾...;And DevOPS✅!`;
+    const typewriterDark = `https://readme-typing-svg.demolab.com?font=Fira+Code&duration=1000&pause=1000&color=${darkTextColor}&center=true&vCenter=true&width=435&lines=Hello+I'm+Jie!;My+interests+are%3A;Software+Engineering🖥️...;Site+Reliability+Engineering💾...;And DevOPS✅!`;
 
     if (isDarkTheme) {
       document.documentElement.classList.add("light");
