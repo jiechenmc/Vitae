@@ -1,5 +1,5 @@
-import { ReactComponent as LinkedinFooterIcon } from "../../assets/LinkedinFooterIcon.svg";
-import { ReactComponent as GithubFooterIcon } from "../../assets/GithubFooterIcon.svg";
+import { ReactComponent as LinkedinFooterIcon } from "../../assets/icons/LinkedinFooterIcon.svg";
+import { ReactComponent as GithubFooterIcon } from "../../assets/icons/GithubFooterIcon.svg";
 
 const Footer = () => {
     return (

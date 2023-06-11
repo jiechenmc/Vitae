@@ -14,14 +14,7 @@ const Projects = () => {
                     {recentProjects.map((project: ProjectElement) => (
                         <ProjectEntries
                             key={uuidv4()}
-                            title={project?.title}
-                            date={project?.date}
-                            description={project?.description}
-                            repo={project?.repo}
-                            status={project?.status}
-                            stack={project?.stack}
-                            demo={project?.demo}
-                            star={project?.star}
+                            {...project}
                         />
                     ))}
                 </div>

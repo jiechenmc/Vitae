@@ -1,8 +1,8 @@
 import useIcon from "../../hooks/useIcon";
-import { ReactComponent as GithubProjectIcon } from "../../assets/GithubProjectIcon.svg";
-import { ReactComponent as DemoIcon } from "../../assets/DemoIcon.svg";
+import { ReactComponent as GithubProjectIcon } from "../../assets/icons/GithubProjectIcon.svg";
+import { ReactComponent as DemoIcon } from "../../assets/icons/DemoIcon.svg";
 import { ProjectElement } from "../../data/projects";
-import meme from '../../assets/meme.jpg'
+import defaultThumbnail from '../../assets/thumbnails/default.jpg'
 
 const ProjectEntries = ({
   title,
@@ -12,7 +12,7 @@ const ProjectEntries = ({
   status,
   stack,
   demo,
-  star,
+  thumbnail
 }: ProjectElement) => {
   const statusStyles: { [key: string]: string } = {
     complete: "border-success",
@@ -21,6 +21,7 @@ const ProjectEntries = ({
 
   const icons = stack.split(",").map((e) => useIcon(e.trim()));
 
+
   return (
     <div className="flex justify-center mb-2">
       <div
@@ -28,7 +29,7 @@ const ProjectEntries = ({
           }`}
       >
         <div className="card sm:card-side">
-          <figure><img src={meme} className="w-60 h-60 p-4" alt="Movie" /></figure>
+          <figure><img src={thumbnail ?? defaultThumbnail} className="aspect-square w-80	p-4" alt="Project Thumbnail" /></figure>
           <div className="card-body">
             <h2 className="card-title text-center ">
               <p>{title}</p>

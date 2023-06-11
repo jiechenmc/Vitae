@@ -1,8 +1,8 @@
 import ThemeToggle from "./ThemeToggle";
-import { ReactComponent as ProjectsIcon } from "../../assets/ProjectsIcon.svg";
-import { ReactComponent as AboutIcon } from "../../assets/AboutIcon.svg";
-import { ReactComponent as EducationIcon } from "../../assets/EducationIcon.svg";
-import { ReactComponent as SkillIcon } from "../../assets/SkillIcon.svg";
+import { ReactComponent as ProjectsIcon } from "../../assets/icons/ProjectsIcon.svg";
+import { ReactComponent as AboutIcon } from "../../assets/icons/AboutIcon.svg";
+import { ReactComponent as EducationIcon } from "../../assets/icons/EducationIcon.svg";
+import { ReactComponent as SkillIcon } from "../../assets/icons/SkillIcon.svg";
 
 const Navbar = () => {
     return (

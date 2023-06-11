@@ -1,4 +1,4 @@
-import { ReactComponent as GithubIcon } from "../../assets/GithubFooterIcon.svg";
+import { ReactComponent as GithubIcon } from "../../assets/icons/GithubFooterIcon.svg";
 
 const ViewGithubButton = () => {
     return (<a

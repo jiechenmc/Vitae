@@ -6,7 +6,7 @@ export interface ProjectElement {
   status: string;
   stack: string;
   demo: string;
-  star: string;
+  thumbnail: string
 }
 
 export default [
@@ -19,7 +19,7 @@ export default [
     demo: "https://jiechen.dev/",
     status: "complete",
     stack: "TypeScript,React,Docker,Tailwind,Firebase",
-    star: "true",
+    thumbnail: "/src/assets/thumbnails/jiechen.dev.jpg"
   },
   {
     title: "Gradus",
@@ -30,7 +30,7 @@ export default [
     demo: "https://gradus.jiechen.dev/",
     status: "complete",
     stack: "Python,MongoDB,Playwright,FastAPI,Docker,Heroku",
-    star: "true",
+    thumbnail: "/src/assets/thumbnails/gradus.png"
   },
   {
     title: "Distr",
@@ -41,7 +41,6 @@ export default [
     demo: "https://distr.jiechen.dev/",
     status: "complete",
     stack: "TypeScript,React,NextJS,Tailwind",
-    star: "true",
   },
   {
     title: "Cls",
@@ -52,7 +51,7 @@ export default [
     demo: "#",
     status: "complete",
     stack: "Go,Playwright",
-    star: "",
+    thumbnail: "/src/assets/thumbnails/cls.jpg"
   },
   {
     title: "Loqi",
@@ -60,10 +59,10 @@ export default [
     description:
       "Loqi is a student-focused chat application that enables current students to connect with past students of courses they are interested in, fostering community and increasing educational resources",
     repo: "https://github.com/viLoqi",
-    demo: "#",
+    demo: "https://vm1.cs.stonybrook.edu/",
     status: "complete",
     stack: "Go,NextJS,Docker",
-    star: "",
+    thumbnail: "/src/assets/thumbnails/loqi.png"
   },
 ];
 

@@ -1,5 +1,5 @@
 import ViewResumeButton from "./ViewResumeButton";
-import meme from '../../assets/meme.jpg'
+import defaultThumbnail from '../../assets/thumbnails/default.jpg'
 import NavBar from "./Navbar";
 import ViewGithubButton from "./ViewGithubButton";
 
@@ -10,7 +10,7 @@ const Head = () => {
             <div className="hero min-h-screen bg-base-200 justify-center text-center">
                 <div className="hero-content grid lg:flex-row justify-center p-0">
 
-                    <img src={meme} className="max-w-sm rounded-lg shadow-2xl" />
+                    <img src={defaultThumbnail} className="max-w-sm rounded-lg shadow-2xl" />
                     <img id="AnimatedIntroduction" className="object-center text-center justify-center flex" />
 
                     <div className="hero-content flex-col">
