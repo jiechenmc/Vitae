@@ -6,7 +6,7 @@ export interface ProjectElement {
   status: string;
   stack: string;
   demo: string;
-  thumbnail: string
+  thumbnail?: string
 }
 
 export default [
