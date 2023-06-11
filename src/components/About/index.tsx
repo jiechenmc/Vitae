@@ -5,7 +5,7 @@ import atomOneDark from "react-syntax-highlighter/dist/esm/styles/hljs/atom-one-
 SyntaxHighlighter.registerLanguage("python", py);
 
 export const About = () => {
-  const about = `
+    const about = `
   class Jie:
       def __init__(self):
           self.name = "Jie Chen"
@@ -21,24 +21,24 @@ export const About = () => {
               "Automation 🤖",
           ]`;
 
-  return (
-    <div id="about" className="">
-      <h1 className="text-2xl light:text-gray-700 dark:text-base-content font-bold text-center my-4">
-        About Me
-      </h1>
-      <div className="flex justify-center">
-        <div className="mockup-code w-full mx-1 max-w-2xl whitespace-pre-wrap">
-          <SyntaxHighlighter
-            language="python"
-            style={atomOneDark}
-            customStyle={{ backgroundColor: "transparent" }}
-          >
-            {about}
-          </SyntaxHighlighter>
+    return (
+        <div id="about" className="">
+            <h1 className="text-2xl light:text-gray-700 dark:text-base-content font-bold text-center my-4">
+                About Me
+            </h1>
+            <div className="flex justify-center">
+                <div className="mockup-code w-full mx-1 max-w-2xl whitespace-pre-wrap py-8 pr-4">
+                    <SyntaxHighlighter
+                        language="python"
+                        style={atomOneDark}
+                        customStyle={{ backgroundColor: "transparent" }}
+                    >
+                        {about}
+                    </SyntaxHighlighter>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  );
+    );
 };
 
 export default About;

@@ -1,7 +1,7 @@
 import useIcon from "../../hooks/useIcon";
 import { ReactComponent as GithubProjectIcon } from "../../assets/GithubProjectIcon.svg";
 import { ReactComponent as DemoIcon } from "../../assets/DemoIcon.svg";
-import { ProjectElement } from "../Projects";
+import { ProjectElement } from ".";
 
 const ProjectEntries = ({
   title,
@@ -23,19 +23,11 @@ const ProjectEntries = ({
   return (
     <div className="flex justify-center mb-2">
       <div
-        className={`flex max-w-sm w-full mb-2 border-2 rounded-lg shadow-lg indicator ${
-          statusStyles[status] ?? "border-red-500"
-        }`}
+        className={`flex max-w-xl w-full mb-2 border-2 rounded-lg shadow-lg indicator ${statusStyles[status] ?? "border-red-500"
+          }`}
       >
-        {star ? (
-          <span className="indicator-item badge bg-transparent border-0 text-2xl">
-            🌐
-          </span>
-        ) : (
-          ""
-        )}
-
-        <div className="card w-full">
+        <div className="card card-side w-full">
+          <figure><img src="https://picsum.photos/800/800" alt="Movie" width={800} height={800} /></figure>
           <div className="card-body">
             <h2 className="card-title text-center ">
               <p>{title}</p>

@@ -1,5 +1,4 @@
-import useIcon from "../hooks/useIcon";
-import SkillCircle from "./core/SkillCircle";
+import useIcon from "../../hooks/useIcon";
 
 const Skills = () => {
   const proficient = [
@@ -26,7 +25,7 @@ const Skills = () => {
   return (
     <div id="skills" className="mb-4">
       <h1 className="flex-col text-2xl text-base-content font-bold text-center my-4">
-        Skills
+        Tech Stack
         <div className="flex gap-2 justify-center mt-4">
           <span className="badge text-success">Proficient</span>
           <span className="badge text-warning">Intermediate</span>
@@ -35,9 +34,6 @@ const Skills = () => {
       </h1>
 
       <div className="grid lg:flex justify-center gap-4">
-        <SkillCircle color="text-success" icons={proficient} />
-        <SkillCircle color="text-warning" icons={intermediate} />
-        <SkillCircle color="text-gray" icons={learning} />
       </div>
     </div>
   );

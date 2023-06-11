@@ -27,18 +27,18 @@ export default [
     courseCode: "CSE220",
     courseName: "Systems Fundamentals I",
     instructor: "Kevin Mcdonnell",
-    completed: false,
+    completed: true,
   },
   {
     courseCode: "CSE311",
     courseName: "Systems Administration",
     instructor: "Ahmad Esmaili",
-    completed: false,
+    completed: true,
   },
   {
     courseCode: "CSE316",
     courseName: "Fundamentals of Software Development",
     instructor: "Joydeep Mitra",
-    completed: false,
+    completed: true,
   },
 ];
