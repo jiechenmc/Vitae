@@ -19,12 +19,12 @@ const Projects = () => {
                     ))}
                 </div>
             </div>
-            {/* <div className="flex justify-center">
+            <div className="flex justify-center">
                 <img
                     className="w-full md:w-[60%] lg:w-[45%] xl:w-[35%] 2xl:w-[25%]"
                     id="GithubStats"
                 />
-            </div> */}
+            </div>
         </div>
     );
 };

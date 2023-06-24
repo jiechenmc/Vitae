@@ -15,7 +15,7 @@ const useIcon = (icon: string) => {
   }, []);
 
   return (
-    <div className="tooltip capitalize" data-tip={icon}>
+    <div key={crypto.randomUUID()} className="tooltip capitalize" data-tip={icon}>
       {_icon}
     </div>
   );

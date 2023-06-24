@@ -5,12 +5,15 @@ import SkillCard from "./SkillCard";
 const Skills = () => {
 
   const [isShowAll, setIsShowAll] = useState(true)
-  const [isShowWeb, setIsShowWeb] = useState(true)
-  const [isShowDevOps, setIsShowDevOps] = useState(true)
-  const [isShowMISC, setIsShowMisc] = useState(true)
+  const [isShowWeb, setIsShowWeb] = useState(false)
+  const [isShowDevOps, setIsShowDevOps] = useState(false)
+  const [isShowMISC, setIsShowMisc] = useState(false)
 
   const showAll = () => {
     setIsShowAll(true)
+    setIsShowWeb(false)
+    setIsShowDevOps(false)
+    setIsShowMisc(false)
   }
 
   const showWeb = () => {
@@ -47,10 +50,10 @@ const Skills = () => {
         <button className="btn text-info" onClick={showMISC}>MISC</button>
       </div>
 
-      <div className="ml-auto mr-auto max-w-2xl justify-center">
-        {isShowAll || isShowWeb ? <div className="grid gap-2 mt-4 grid-cols-2">{Web.map((e: SkillElement) => <SkillCard {...e} color='border-success' />)}</div> : <></>}
-        {isShowAll || isShowDevOps ? <div className="grid gap-2 mt-4 grid-cols-2">{DevOps.map((e: SkillElement) => <SkillCard {...e} color='border-warning' />)} </div> : <></>}
-        {isShowAll || isShowMISC ? <div className="grid gap-2 mt-4 grid-cols-2">{MISC.map((e: SkillElement) => <SkillCard {...e} color='border-info' />)}</div> : <></>}
+      <div className="ml-auto mr-auto max-w-2xl">
+        {isShowAll || isShowWeb ? <div className={`grid gap-2 mt-4 grid-cols-2 ${isShowWeb ? 'grid-rows-5' : ''}`}>{Web.map((e: SkillElement) => <SkillCard {...e} key={crypto.randomUUID()} color='border-success' />)}</div> : <></>}
+        {isShowAll || isShowDevOps ? <div className={`grid gap-2 mt-4 grid-cols-2 ${isShowDevOps ? 'grid-rows-5' : ''}`}>{DevOps.map((e: SkillElement) => <SkillCard {...e} key={crypto.randomUUID()} color='border-warning' />)} </div> : <></>}
+        {isShowAll || isShowMISC ? <div className={`grid gap-2 mt-4 grid-cols-2 ${isShowMISC ? 'grid-rows-5' : ''}`}>{MISC.map((e: SkillElement) => <SkillCard {...e} key={crypto.randomUUID()} color='border-info' />)}</div> : <></>}
       </div>
 
 
