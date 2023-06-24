@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Web, DevOps, MISC, SkillElement } from "../../data/skills";
 import SkillCard from "./SkillCard";
 
-const Skills = () => {
+const TechStack = () => {
 
   const [isShowAll, setIsShowAll] = useState(true)
   const [isShowWeb, setIsShowWeb] = useState(false)
@@ -63,4 +63,4 @@ const Skills = () => {
   );
 };
 
-export default Skills;
+export default TechStack;

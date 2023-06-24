@@ -6,4 +6,7 @@ import svgr from "vite-plugin-svgr";
 export default defineConfig({
   base: "/",
   plugins: [svgr(), react()],
+  esbuild: {
+    logOverride: { 'this-is-undefined-in-esm': 'silent' }
+  }
 });
