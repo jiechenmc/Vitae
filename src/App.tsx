@@ -7,16 +7,18 @@ import TechStack from "./components/TechStack";
 
 function App() {
   return (
-    <div className="overflow-hidden">
-      <Header />
-      <div className="justify-evenly sm:flex-col md:flex-row">
-        <About />
-        <Classes />
-        <Projects />
-        <TechStack />
+    <>
+      <div className="overflow-hidden">
+        <Header />
+        <div className="justify-evenly sm:flex-col md:flex-row">
+          <About />
+          <Classes />
+          <Projects />
+          <TechStack />
+        </div>
+        <Footer />
       </div>
-      <Footer />
-    </div>
+    </>
   );
 }
 
