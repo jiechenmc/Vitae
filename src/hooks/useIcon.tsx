@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import table from "../data/icons";
 import { Icon } from "@iconify/react";
+import { v4 as uuidv4 } from "uuid";
 
 const useIcon = (icon: string) => {
   const iconQuery = icon.toLowerCase().replace(" ", "_");
@@ -15,7 +16,7 @@ const useIcon = (icon: string) => {
   }, []);
 
   return (
-    <div key={crypto.randomUUID()} className="tooltip capitalize" data-tip={icon}>
+    <div key={uuidv4()} className="tooltip capitalize" data-tip={icon}>
       {_icon}
     </div>
   );
