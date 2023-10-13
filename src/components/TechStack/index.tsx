@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Web, DevOps, MISC, SkillElement } from "../../data/skills";
 import SkillCard from "./SkillCard";
+import { v4 as uuidv4 } from "uuid";
 
 const TechStack = () => {
 
@@ -51,9 +52,9 @@ const TechStack = () => {
       </div>
 
       <div className="ml-auto mr-auto max-w-2xl">
-        {isShowAll || isShowWeb ? <div className={`grid gap-2 mt-4 grid-cols-2 ${isShowWeb ? 'grid-rows-5' : ''}`}>{Web.map((e: SkillElement) => <SkillCard {...e} key={crypto.randomUUID()} color='border-success' />)}</div> : <></>}
-        {isShowAll || isShowDevOps ? <div className={`grid gap-2 mt-4 grid-cols-2 ${isShowDevOps ? 'grid-rows-5' : ''}`}>{DevOps.map((e: SkillElement) => <SkillCard {...e} key={crypto.randomUUID()} color='border-warning' />)} </div> : <></>}
-        {isShowAll || isShowMISC ? <div className={`grid gap-2 mt-4 grid-cols-2 ${isShowMISC ? 'grid-rows-5' : ''}`}>{MISC.map((e: SkillElement) => <SkillCard {...e} key={crypto.randomUUID()} color='border-info' />)}</div> : <></>}
+        {isShowAll || isShowWeb ? <div className={`grid gap-2 mt-4 grid-cols-2 ${isShowWeb ? 'grid-rows-5' : ''}`}>{Web.map((e: SkillElement) => <SkillCard {...e} key={uuidv4()} color='border-success' />)}</div> : <></>}
+        {isShowAll || isShowDevOps ? <div className={`grid gap-2 mt-4 grid-cols-2 ${isShowDevOps ? 'grid-rows-5' : ''}`}>{DevOps.map((e: SkillElement) => <SkillCard {...e} key={uuidv4()} color='border-warning' />)} </div> : <></>}
+        {isShowAll || isShowMISC ? <div className={`grid gap-2 mt-4 grid-cols-2 ${isShowMISC ? 'grid-rows-5' : ''}`}>{MISC.map((e: SkillElement) => <SkillCard {...e} key={uuidv4()} color='border-info' />)}</div> : <></>}
       </div>
 
 

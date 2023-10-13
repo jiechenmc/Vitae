@@ -1,13 +1,15 @@
-FROM node
+# build environment
+FROM node:20 as build
 
-WORKDIR /jiechen.dev
+WORKDIR /app
 
-COPY package.json yarn.lock ./
+COPY package.json ./
+COPY yarn.lock ./
 
-RUN yarn
+RUN yarn 
+COPY . ./
 
-COPY . .
+RUN yarn build
+EXPOSE 4173
 
-CMD ["yarn", "run", "dev", "--", "--host"]
-
-EXPOSE 3000
+CMD ["yarn", "preview", "--host", "0.0.0.0"]
