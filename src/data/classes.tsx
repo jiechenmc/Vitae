@@ -51,4 +51,10 @@ export default [
     instructor: "Joydeep Mitra",
     completed: true,
   },
+  {
+    courseCode: "CSE320",
+    courseName: "Systems Fundamentals II",
+    instructor: "Eugene Stark",
+    completed: true,
+  },
 ];

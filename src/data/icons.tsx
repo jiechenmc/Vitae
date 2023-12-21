@@ -59,6 +59,10 @@ const ICONS: { [key: string]: React.ReactElement } = {
   fresh: <Icon icon="logos:fresh" width={width} height={height} />,
   puppeteer: <Icon icon="logos:puppeteer" width={width} height={height} />,
   nextjs: <Icon icon="logos:nextjs-icon" width={width} height={height} />,
+  terraform: <Icon icon="logos:terraform-icon" width={width} height={height} />,
+  kubernetes: <Icon icon="logos:kubernetes" width={width} height={height} />,
+  grafana: <Icon icon="logos:grafana" width={width} height={height} />,
+  prometheus: <Icon icon="logos:prometheus" width={width} height={height} />,
 };
 
 export default ICONS;

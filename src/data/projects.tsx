@@ -65,5 +65,16 @@ export default [
     stack: "Go,NextJS,Docker,NGINX",
     thumbnail: "/thumbnails/loqi.png"
   },
+  {
+    title: "Kamrui",
+    date: "December 2023",
+    description:
+      "Cloud automation and monitor project using tools like Go, Kubernetes, Terraform, Grafana, Prometheus.",
+    repo: "https://github.com/jiechenmc/Kamrui",
+    demo: "",
+    status: "complete",
+    stack: "Go, Kubernetes, Terraform, Grafana, Prometheus, MongoDB",
+    thumbnail: "/thumbnails/kamrui.png"
+  },
 ];
 
